@@ -1,0 +1,15 @@
+header {
+    position: fixed;
+    top: -150px;
+    height: 300px;
+    transition: 0.3s;
+    .headervisual {
+    background-color: #3f44a7;
+    height: 150px;
+    width: 2000px;
+    }
+}
+
+header:hover {
+    top: 0px;
+}

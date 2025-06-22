@@ -1,22 +1,20 @@
 @import "reset";
+@import "media-queries";
 
 
-body {
-    background-color: #1f2146;
+
+@import 'def';
+
+
+
+@media #{$mobile} {
+    @import 'mobile';
 }
 
-header {
-    position: fixed;
-    top: -150px;
-    height: 300px;
-    transition: 0.5s;
-    div {
-    background-color: #3f44a7;
-    height: 150px;
-    width: 2000px;
-    }
+@media #{$tablet} {
+    @import 'tablet';
 }
 
-header:hover {
-    top: 1px;
+@media #{$desktop} {
+    @import 'desktop';
 }
