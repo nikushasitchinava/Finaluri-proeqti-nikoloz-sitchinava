@@ -1,3 +1,30 @@
 body {
     background-color: #1f2146;
 }
+
+.headerbackgroundcolor {
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+        nav {
+            display: flex;
+            justify-content: space-between;
+                .tibisilogoheader {
+                display: flex;
+                }
+
+                .headertextdiv {
+                display: flex;
+                gap: 55px;
+                letter-spacing: 3px;
+                }
+        }
+    
+
+}
+
+
+#tbclogo {
+    width: 210px;
+}
