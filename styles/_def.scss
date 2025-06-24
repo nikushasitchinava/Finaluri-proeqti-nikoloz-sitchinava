@@ -1,7 +1,7 @@
 @import "animations";
 
 body {
-    background-color: #2c3170;
+    background-color: rgb(37, 42, 121);
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: "weight";
@@ -10,30 +10,37 @@ body {
 }
 
 header {
+    z-index: 50;
     position: fixed;
     display: flex;
     height: 250px;
-    .headerbackgroundcolor {
-    padding-top: 45px;
-    height: 150px;
-    width: 2800px;
-    box-sizing: border-box;
-    display: flex;
-    background-color: #3c42ad;
-        nav {
+        .headerbackgroundcolor {
+        padding-top: 45px;
+        height: 150px;
+        width: 2800px;
+        box-sizing: border-box;
         display: flex;
-        justify-content: space-around;
-        width: 1800px;
-            div {
-                a {
-                    text-decoration: none;
-                    font-size: 34px;
-                    color: white;
+        background-color: #3138b3;
+            nav {
+            display: flex;
+            justify-content: space-around;
+            width: 1800px;
+                div {
+                    a {
+                        text-decoration: none;
+                        font-size: 34px;
+                        color: rgb(174, 182, 255);
+                        transition: 0.3s;
+
+                        &:hover {
+                            font-size: 50px;
+                            color: white;
+                        }
+                    }
                 }
             }
-        }
 
-    }
+        }
 }
 
 
@@ -58,13 +65,17 @@ main {
         .flexrowthem{
         display: flex;
         justify-content: space-around;
+        z-index: 1;
+        height: 430px;
+        background-image: url(./../images/backgroundtile.gif);
+        background-size: 10%;
             .gamecarddiv {
             margin-top: 50px;
-            width: 370px;
-            height: 420px;
+            width: 270px;
+            height: 320px;
             background-image: url(./../images/gamecarddiv.gif);
             background-size: 150%;
-            transition: 0.5s;
+            transition: 0.3s;
 
             &:hover {
             transform: scale(1.2);
@@ -73,17 +84,30 @@ main {
             }
 
 
-        }
-        
+        }      
     }
 
 }
 
 
 .backgroundpixeldiv {
+    display: flex;
     margin-top: 80px;
-    height: 1200px;
+    height: 800px;
     background-image: url(./../images/backgroundpixeldiv.gif);
     background-size: contain;
+    padding-top: 150px;
+    margin-bottom: 300px;
+    justify-content: center;
+        #mario {
+            display: flex;
+            border-radius: 50px;
+        }
+        .description {
+            width: 600px;
+            height: 600px;
+            background-image: url(./../images/gamecarddesc2.gif);
+            background-size: contain;
+        }
 }
 
