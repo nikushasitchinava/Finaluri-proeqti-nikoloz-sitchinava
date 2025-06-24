@@ -1,11 +1,15 @@
 @import "reset";
 @import "media-queries";
+@import "animations";
 
 
 
 @import 'def';
 
 
+@media #{$desktop} {
+    @import 'desktop';
+}
 
 @media #{$mobile} {
     @import 'mobile';
@@ -13,8 +17,4 @@
 
 @media #{$tablet} {
     @import 'tablet';
-}
-
-@media #{$desktop} {
-    @import 'desktop';
 }

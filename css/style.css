@@ -9,6 +9,7 @@ body {
   font-optical-sizing: auto;
   font-weight: "weight";
   font-style: "normal";
+  letter-spacing: 2px;
 }
 
 header {
@@ -35,23 +36,46 @@ header .headerbackgroundcolor nav div a {
   color: white;
 }
 
-#tbclogo {
-  width: 210px;
-}
-
 main {
   margin-top: 170px;
   display: flex;
   justify-content: center;
 }
-main .gametittleheader {
+main .flexthemtogether {
+  display: flex;
+  flex-direction: column;
+}
+main .flexthemtogether .gametittleheader {
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(244, 255, 88);
-  width: 900px;
-  height: 110px;
+  width: 1400px;
+  height: 130px;
   background-image: url(./../images/GenreHeadertittledivbanner.gif);
+  background-size: contain;
+  font-size: 30px;
+}
+main .flexthemtogether .flexrowthem {
+  display: flex;
+  justify-content: space-around;
+}
+main .flexthemtogether .flexrowthem .gamecarddiv {
+  margin-top: 50px;
+  width: 370px;
+  height: 420px;
+  background-image: url(./../images/gamecarddiv.gif);
+  background-size: 150%;
+  transition: 0.5s;
+}
+main .flexthemtogether .flexrowthem .gamecarddiv:hover {
+  transform: scale(1.2);
+}
+
+.backgroundpixeldiv {
+  margin-top: 80px;
+  height: 1200px;
+  background-image: url(./../images/backgroundpixeldiv.gif);
   background-size: contain;
 }
 
