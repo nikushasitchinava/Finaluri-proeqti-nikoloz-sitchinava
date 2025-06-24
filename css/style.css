@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(37, 42, 121);
+  background-color: rgb(36, 42, 128);
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: "weight";
@@ -24,7 +24,7 @@ header .headerbackgroundcolor {
   width: 2800px;
   box-sizing: border-box;
   display: flex;
-  background-color: #3138b3;
+  background-color: #383eb4;
 }
 header .headerbackgroundcolor nav {
   display: flex;
@@ -38,7 +38,7 @@ header .headerbackgroundcolor nav div a {
   transition: 0.3s;
 }
 header .headerbackgroundcolor nav div a:hover {
-  font-size: 50px;
+  font-size: 39px;
   color: white;
 }
 
@@ -56,19 +56,14 @@ main .flexthemtogether .gametittleheader {
   justify-content: center;
   align-items: center;
   color: rgb(244, 255, 88);
-  width: 1400px;
+  width: 1200px;
   height: 130px;
-  background-image: url(./../images/GenreHeadertittledivbanner.gif);
   background-size: contain;
   font-size: 30px;
 }
 main .flexthemtogether .flexrowthem {
   display: flex;
   justify-content: space-around;
-  z-index: 1;
-  height: 430px;
-  background-image: url(./../images/backgroundtile.gif);
-  background-size: 10%;
 }
 main .flexthemtogether .flexrowthem .gamecarddiv {
   margin-top: 50px;
