@@ -29,7 +29,10 @@ header .headerbackgroundcolor {
 header .headerbackgroundcolor nav {
   display: flex;
   justify-content: space-around;
-  width: 1800px;
+  width: 1905px;
+  height: 105px;
+  background-image: url(./../images/HeaderPixeldesign.gif);
+  background-size: contain;
 }
 header .headerbackgroundcolor nav div a {
   text-decoration: none;
@@ -40,6 +43,10 @@ header .headerbackgroundcolor nav div a {
 header .headerbackgroundcolor nav div a:hover {
   font-size: 39px;
   color: white;
+}
+
+#onthere {
+  color: #f8f41d;
 }
 
 main {
@@ -85,17 +92,8 @@ main .flexthemtogether .flexrowthem .gamecarddiv:hover {
   background-size: contain;
   padding-top: 150px;
   margin-bottom: 300px;
+  box-sizing: border-box;
   justify-content: center;
-}
-.backgroundpixeldiv #mario {
-  display: flex;
-  border-radius: 50px;
-}
-.backgroundpixeldiv .description {
-  width: 600px;
-  height: 600px;
-  background-image: url(./../images/gamecarddesc2.gif);
-  background-size: contain;
 }
 
 @media screen and (min-device-width: 1025px) {

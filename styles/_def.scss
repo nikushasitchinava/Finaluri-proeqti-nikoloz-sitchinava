@@ -24,7 +24,10 @@ header {
             nav {
             display: flex;
             justify-content: space-around;
-            width: 1800px;
+            width: 1905px;
+            height: 105px;
+            background-image: url(./../images/HeaderPixeldesign.gif);
+            background-size: contain;
                 div {
                     a {
                         text-decoration: none;
@@ -41,6 +44,10 @@ header {
             }
 
         }
+}
+
+#onthere {
+    color: #f8f41d;
 }
 
 
@@ -92,16 +99,7 @@ main {
     background-size: contain;
     padding-top: 150px;
     margin-bottom: 300px;
+    box-sizing: border-box;
     justify-content: center;
-        #mario {
-            display: flex;
-            border-radius: 50px;
-        }
-        .description {
-            width: 600px;
-            height: 600px;
-            background-image: url(./../images/gamecarddesc2.gif);
-            background-size: contain;
-        }
 }
 
