@@ -1,5 +1,9 @@
 body {
-    background-color: #1f2146;
+    background-color: #2c3170;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: "weight";
+    font-style: "normal";
 }
 
 header {
@@ -7,15 +11,49 @@ header {
     display: flex;
     height: 250px;
     .headerbackgroundcolor {
-    padding: 20px;
+    padding-top: 45px;
     height: 150px;
     width: 2800px;
     box-sizing: border-box;
     display: flex;
-    background-color: #3f44a7;
+    background-color: #3c42ad;
+        nav {
+        display: flex;
+        justify-content: space-around;
+        width: 1800px;
+            div {
+                a {
+                    text-decoration: none;
+                    font-size: 34px;
+                    color: white;
+                }
+            }
+        }
+
     }
 }
+
+
+
 
 #tbclogo {
     width: 210px;
 }
+
+
+main {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    .gametittleheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(244, 255, 88);
+    width: 900px;
+    height: 110px;
+    background-image: url(./../images/GenreHeadertittledivbanner.gif);
+    background-size: contain;
+    }
+}
+
