@@ -7,23 +7,18 @@ body {
   background-color: #1f2146;
 }
 
-.headerbackgroundcolor {
-  padding: 40px;
+header {
+  position: fixed;
+  display: flex;
+  height: 250px;
+}
+header .headerbackgroundcolor {
+  padding: 20px;
+  height: 150px;
+  width: 2800px;
   box-sizing: border-box;
   display: flex;
-  color: white;
-}
-.headerbackgroundcolor nav {
-  display: flex;
-  justify-content: space-between;
-}
-.headerbackgroundcolor nav .tibisilogoheader {
-  display: flex;
-}
-.headerbackgroundcolor nav .headertextdiv {
-  display: flex;
-  gap: 55px;
-  letter-spacing: 3px;
+  background-color: #3f44a7;
 }
 
 #tbclogo {
@@ -32,15 +27,8 @@ body {
 
 @media screen and (min-device-width: 1025px) {
   header {
-    position: fixed;
-    top: 0px;
-    height: 250px;
-    transition: 0.3s;
-  }
-  header .headerbackgroundcolor {
-    background-color: #3f44a7;
-    height: 150px;
-    width: 2000px;
+    top: -150px;
+    transition: 0.5s;
   }
   header:hover {
     top: 0px;

@@ -1,13 +1,6 @@
 header {
-    position: fixed;
-    top: 0px;
-    height: 250px;
-    transition: 0.3s;
-    .headerbackgroundcolor {
-    background-color: #3f44a7;
-    height: 150px;
-    width: 2000px;
-    }
+    top: -150px;
+    transition: 0.5s;
 }
 
 header:hover {

@@ -2,28 +2,19 @@ body {
     background-color: #1f2146;
 }
 
-.headerbackgroundcolor {
-    padding: 40px;
+header {
+    position: fixed;
+    display: flex;
+    height: 250px;
+    .headerbackgroundcolor {
+    padding: 20px;
+    height: 150px;
+    width: 2800px;
     box-sizing: border-box;
     display: flex;
-    color: white;
-        nav {
-            display: flex;
-            justify-content: space-between;
-                .tibisilogoheader {
-                display: flex;
-                }
-
-                .headertextdiv {
-                display: flex;
-                gap: 55px;
-                letter-spacing: 3px;
-                }
-        }
-    
-
+    background-color: #3f44a7;
+    }
 }
-
 
 #tbclogo {
     width: 210px;
