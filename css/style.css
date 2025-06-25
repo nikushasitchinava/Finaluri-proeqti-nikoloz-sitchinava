@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(36, 42, 128);
+  background-color: rgb(19, 9, 104);
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: "weight";
@@ -31,8 +31,6 @@ header .headerbackgroundcolor nav {
   justify-content: space-around;
   width: 1905px;
   height: 105px;
-  background-image: url(./../images/HeaderPixeldesign.gif);
-  background-size: contain;
 }
 header .headerbackgroundcolor nav div a {
   text-decoration: none;
@@ -76,7 +74,7 @@ main .flexthemtogether .flexrowthem .gamecarddiv {
   margin-top: 50px;
   width: 270px;
   height: 320px;
-  background-image: url(./../images/gamecarddiv.gif);
+  background-color: rgb(8, 4, 49);
   background-size: 150%;
   transition: 0.3s;
 }
