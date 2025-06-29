@@ -1,10 +1,13 @@
 @import "reset";
 @import "media-queries";
-@import "animations";
 
 
 
-@import 'def';
+
+
+
+@import "base";
+
 
 
 @media #{$desktop} {
