@@ -10,6 +10,16 @@ body {
   font-style: normal;
 }
 
+.backgroundgamescenefixed {
+  position: fixed;
+  top: 0;
+  height: 940px;
+  width: 1914px;
+  background-image: url(./../images/backgroundgamescenediv.gif);
+  z-index: -1;
+  opacity: 10%;
+}
+
 .websitename {
   margin-top: 150px;
   display: flex;
@@ -21,4 +31,5 @@ body {
   letter-spacing: 15px;
   margin-left: 15px;
   font-weight: 100;
+  text-shadow: 4px 4px 32px rgba(25, 72, 223, 0.76);
 }/*# sourceMappingURL=style.css.map */
