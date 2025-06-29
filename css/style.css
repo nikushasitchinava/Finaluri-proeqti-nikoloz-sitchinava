@@ -15,7 +15,7 @@ body {
   top: 0;
   height: 1510px;
   width: 2914px;
-  background-image: url(./../images/backgroundgamescenediv.gif);
+  background-image: url(./../images/backgroundgamescenedivfixed.gif);
   z-index: -1;
   opacity: 40%;
 }
@@ -61,8 +61,13 @@ main .topgames h1 {
 }
 
 footer {
+  display: flex;
   height: 250px;
-  width: 1500px;
-  margin: auto;
-  background-color: #050131;
+  justify-content: space-around;
+}
+footer h1 {
+  color: white;
+  font-size: 45px;
+  letter-spacing: 12px;
+  text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
 }/*# sourceMappingURL=style.css.map */
