@@ -5,36 +5,62 @@ body {
     font-style: normal;
 }
 
-
 .backgroundgamescenefixed {
     position: fixed;
     top: 0;
-    height: 940px;
-    width: 1914px;
+    height: 1510px;
+    width: 2914px;
     background-image: url(./../images/backgroundgamescenediv.gif);
     z-index: -1;
-    opacity: 10%;
+    opacity: 40%;
 }
 
-
-
-
-
-
-
-
 .websitename {
-    margin-top: 150px;
+    margin-top: 250px;
     display: flex;
     justify-content: center;
+    margin-bottom: 310px;
         h1 {
-            font-size: 240px;
-            color: white;
-            letter-spacing: 15px;
-            margin-left: 15px;
+            font-size: 290px;
+            color: rgb(240, 244, 255);
+            letter-spacing: 25px;
             font-weight: 100;
-            text-shadow: 4px 4px 32px rgba(25,72,223,0.76);
+            text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
         }
 }
 
 
+main {
+    display: flex;
+    background-color: #050131;
+    width: 1500px;
+    height: 1800px;
+    margin: 0px auto;
+    margin-bottom: 550px;
+    box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
+    -webkit-box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
+    -moz-box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
+        .topgames {
+            width: 1500px;
+            height: 850px;
+            background-color: #1454dd;
+            display: flex;
+            justify-content: center;
+            padding-top: 120px;
+            box-sizing: border-box;
+                h1 {
+                    font-size: 120px;
+                    font-weight: 100;
+                    color: white;
+                }
+        }
+}
+
+
+
+footer {
+    height: 250px;
+    width: 1500px;
+    margin: auto;
+    background-color: #050131;
+}
