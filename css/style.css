@@ -123,15 +123,4 @@ footer .line {
   box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
   -webkit-box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
-}
-
-@media only screen and (max-width: 1700px) {
-  main {
-    width: 1400px;
-  }
-}
-@media only screen and (max-width: 1400px) {
-  main {
-    width: 1020px;
-  }
 }/*# sourceMappingURL=style.css.map */
