@@ -37,16 +37,16 @@ body {
 main {
   display: flex;
   background-color: #050131;
-  width: 1500px;
+  width: 1700px;
   height: 1800px;
   margin: 0px auto;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
   box-shadow: 10px 10px 206px 19px rgba(0, 8, 31, 0.56);
   -webkit-box-shadow: 10px 10px 206px 19px rgba(0, 8, 31, 0.56);
   -moz-box-shadow: 10px 10px 206px 19px rgba(0, 8, 31, 0.56);
 }
 main .topgames {
-  width: 1500px;
+  width: 1700px;
   height: 850px;
   background-color: #1454dd;
   display: flex;
@@ -106,7 +106,7 @@ main .topgames h1 {
 
 footer {
   display: flex;
-  height: 350px;
+  height: 250px;
   justify-content: space-around;
   align-items: center;
 }
@@ -117,10 +117,21 @@ footer h1 {
   text-shadow: 4px 4px 5px rgba(0, 11, 26, 0.6);
 }
 footer .line {
-  width: 5px;
-  height: 120px;
+  width: 3px;
+  height: 150px;
   background-color: white;
   box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
   -webkit-box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
+}
+
+@media only screen and (max-width: 1700px) {
+  main {
+    width: 1400px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  main {
+    width: 1020px;
+  }
 }/*# sourceMappingURL=style.css.map */
