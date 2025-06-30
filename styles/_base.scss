@@ -12,7 +12,7 @@ body {
     width: 2914px;
     background-image: url(./../images/backgroundgamescenedivfixed.gif);
     z-index: -1;
-    opacity: 40%;
+    opacity: 20%;
 }
 
 .websitename {
@@ -36,7 +36,7 @@ main {
     width: 1500px;
     height: 1800px;
     margin: 0px auto;
-    margin-bottom: 550px;
+    margin-bottom: 250px;
     box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
     -webkit-box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
     -moz-box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
@@ -52,20 +52,84 @@ main {
                     font-size: 120px;
                     font-weight: 100;
                     color: white;
+                    text-shadow: 4px 4px 16px rgba(0,11,26,0.54);
                 }
         }
 }
 
 
 
+.visitthese{
+    display: flex;
+    justify-content: space-around;
+    .instagram {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+        h1 {
+            color: white;
+            font-weight: 100;
+        }
+
+        h2 {
+            color: rgb(241, 170, 255);
+            font-weight: 10;
+        }
+
+        img {
+            width: 150px;
+        }
+    }
+    .discord {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+        h1 {
+            color: white;
+            font-weight: 100;
+        }
+
+        h2 {
+            color: rgb(170, 204, 255);
+            font-weight: 10;
+        }
+
+        img {
+            width: 150px;
+        }
+    }
+}
+
+
+
+
+
+
+
 footer {
     display: flex;
-    height: 250px;
+    height: 350px;
     justify-content: space-around;
+    align-items: center;
         h1 {
             color: white;
             font-size: 45px;
             letter-spacing: 12px;
-            text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
+            text-shadow: 4px 4px 5px rgba(0,11,26,0.6);
+        }
+
+        .line {
+            width: 5px;
+            height: 120px;
+            background-color: white;
+            box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
+            -webkit-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
+            -moz-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
         }
 }
