@@ -3,6 +3,7 @@ body {
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-bottom: 150px;
 }
 
 .backgroundgamescenefixed {
@@ -14,3 +15,95 @@ body {
     z-index: -1;
     opacity: 20%;
 }
+
+header {
+    display: flex;
+    position: fixed;
+    height: 380px;
+    top: -250px;
+    z-index: 1;
+    transition: 0.7s;
+    &:hover {
+        top: 0px;
+        height: 150px;
+    }
+        .headeritself {
+            height: 150px;
+            width: 2800px;
+            background-color: #1454dd;
+            box-shadow: 0px 19px 28px 1px rgba(0,4,23,0.75);
+            -webkit-box-shadow: 0px 19px 28px 1px rgba(0,4,23,0.75);
+            -moz-box-shadow: 0px 19px 28px 1px rgba(0,4,23,0.75);;
+                nav {
+                    display: flex;
+                    width: 1950px;
+                    padding-top: 40px;
+                    box-sizing: border-box;
+                    justify-content: space-around;
+                        a {
+                            font-size: 45px;
+                            text-decoration: none;
+                            color: white;
+                            text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
+                        }
+
+                        #onthispage {
+                            color: aqua;
+                        }
+                }
+        }
+    
+
+}
+
+
+.screen {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+        #mario {
+        width: 350px;
+        height: 450px;
+        margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 150px;
+            font-weight: 100;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: white;
+            width: 800px;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h3 {
+            color: white;
+            font-size: 110px;
+            text-align: center;
+            margin-bottom: 34px;
+        }
+
+        h4 {
+            color: white;
+            font-size: 40px;
+            font-weight: 100;
+            text-align: center;
+        }
+}
+
