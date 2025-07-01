@@ -34,11 +34,11 @@ body {
     justify-content: center;
         .topgames {
         width: 1700px;
-        height: 700px;
+        height: 720px;
         background-color: #1454dd;
         display: flex;
         align-items: center;
-        padding-top: 50px;
+        padding-top: 55px;
         box-sizing: border-box;
         margin-bottom: 150px;
         flex-direction: column;
@@ -54,43 +54,60 @@ body {
             .topratedgamesdivrow {
                 display: flex;
                 flex-direction: row;
-                gap: 80px;
+                gap: 45px;
                     #game1 {
                     background-image: url(./../images/mariogamethumbnail.jpg);
                     background-size: cover;
-                    width: 350px;
-                    height: 450px;
-                    border: white 3px solid;
+                    width: 330px;
+                    height: 430px;
                     transition: 0.3s;
+                    box-sizing: border-box;
 
                         &:hover {
                             transform: scale(1.2);
+                            border: white 3px solid;
                         }
                     }
 
                     #game2 {
                     background-image: url(./../images/pacmangame.png);
                     background-size: cover;
-                    width: 350px;
-                    height: 450px;
-                    border: white 3px solid;
+                    width: 330px;
+                    height: 430px;
                     transition: 0.3s;
+                    box-sizing: border-box;
                     
                         &:hover {
                             transform: scale(1.2);
+                            border: white 3px solid;
                         }
                     }
 
                     #game3 {
                     background-image: url(./../images/mariobrosgame3thumbnail.png);
                     background-size: cover;
-                    width: 350px;
-                    height: 450px;
-                    border: white 3px solid;
+                    width: 330px;
+                    height: 430px;
                     transition: 0.3s;
+                    box-sizing: border-box;
 
                         &:hover {
                             transform: scale(1.2);
+                            border: white 3px solid;
+                        }
+                    }
+
+                    #game4 {
+                    background-image: url(./../images/nfsunbound.png);
+                    background-size: cover;
+                    width: 330px;
+                    height: 430px;
+                    transition: 0.3s;
+                    box-sizing: border-box;
+
+                        &:hover {
+                            transform: scale(1.2);
+                            border: white 3px solid;
                         }
                     }
             }
