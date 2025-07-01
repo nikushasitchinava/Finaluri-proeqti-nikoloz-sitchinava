@@ -29,6 +29,75 @@ body {
         }
 }
 
+.topgamescenterthemdiv {
+    display: flex;
+    justify-content: center;
+        .topgames {
+        width: 1700px;
+        height: 700px;
+        background-color: #1454dd;
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        margin-bottom: 150px;
+        flex-direction: column;
+            h1 {
+            font-size: 90px;
+            font-weight: 100;
+            color: white;
+            text-shadow: 4px 4px 16px rgba(0,11,26,0.54);
+            display: inline-block;
+            margin-bottom: 50px;
+            }
+
+            .topratedgamesdivrow {
+                display: flex;
+                flex-direction: row;
+                gap: 80px;
+                    #game1 {
+                    background-image: url(./../images/mariogamethumbnail.jpg);
+                    background-size: cover;
+                    width: 350px;
+                    height: 450px;
+                    border: white 3px solid;
+                    transition: 0.3s;
+
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    #game2 {
+                    background-image: url(./../images/pacmangame.png);
+                    background-size: cover;
+                    width: 350px;
+                    height: 450px;
+                    border: white 3px solid;
+                    transition: 0.3s;
+                    
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+
+                    #game3 {
+                    background-image: url(./../images/mariobrosgame3thumbnail.png);
+                    background-size: cover;
+                    width: 350px;
+                    height: 450px;
+                    border: white 3px solid;
+                    transition: 0.3s;
+
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+            }
+    }
+}
+
+
 
 main {
     display: flex;
@@ -39,22 +108,7 @@ main {
     margin-bottom: 150px;
     box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
     -webkit-box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
-    -moz-box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);
-        .topgames {
-            width: 1700px;
-            height: 850px;
-            background-color: #1454dd;
-            display: flex;
-            justify-content: center;
-            padding-top: 120px;
-            box-sizing: border-box;
-                h1 {
-                    font-size: 120px;
-                    font-weight: 100;
-                    color: white;
-                    text-shadow: 4px 4px 16px rgba(0,11,26,0.54);
-                }
-        }
+    -moz-box-shadow: 10px 10px 206px 19px rgba(0,8,31,0.56);     
 }
 
 
@@ -110,14 +164,12 @@ main {
 
 
 
-
-
 footer {
     display: flex;
     height: 250px;
     justify-content: space-around;
     align-items: center;
-        h1 {
+            h1 {
             color: white;
             font-size: 45px;
             letter-spacing: 12px;

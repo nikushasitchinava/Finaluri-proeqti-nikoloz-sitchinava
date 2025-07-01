@@ -34,6 +34,68 @@ body {
   text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
 }
 
+.topgamescenterthemdiv {
+  display: flex;
+  justify-content: center;
+}
+.topgamescenterthemdiv .topgames {
+  width: 1700px;
+  height: 700px;
+  background-color: #1454dd;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+  margin-bottom: 150px;
+  flex-direction: column;
+}
+.topgamescenterthemdiv .topgames h1 {
+  font-size: 90px;
+  font-weight: 100;
+  color: white;
+  text-shadow: 4px 4px 16px rgba(0, 11, 26, 0.54);
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game1 {
+  background-image: url(./../images/mariogamethumbnail.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  border: white 3px solid;
+  transition: 0.3s;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game1:hover {
+  transform: scale(1.2);
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game2 {
+  background-image: url(./../images/pacmangame.png);
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  border: white 3px solid;
+  transition: 0.3s;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game2:hover {
+  transform: scale(1.2);
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game3 {
+  background-image: url(./../images/mariobrosgame3thumbnail.png);
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  border: white 3px solid;
+  transition: 0.3s;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game3:hover {
+  transform: scale(1.2);
+}
+
 main {
   display: flex;
   background-color: #050131;
@@ -44,21 +106,6 @@ main {
   box-shadow: 10px 10px 206px 19px rgba(0, 8, 31, 0.56);
   -webkit-box-shadow: 10px 10px 206px 19px rgba(0, 8, 31, 0.56);
   -moz-box-shadow: 10px 10px 206px 19px rgba(0, 8, 31, 0.56);
-}
-main .topgames {
-  width: 1700px;
-  height: 850px;
-  background-color: #1454dd;
-  display: flex;
-  justify-content: center;
-  padding-top: 120px;
-  box-sizing: border-box;
-}
-main .topgames h1 {
-  font-size: 120px;
-  font-weight: 100;
-  color: white;
-  text-shadow: 4px 4px 16px rgba(0, 11, 26, 0.54);
 }
 
 .visitthese {
