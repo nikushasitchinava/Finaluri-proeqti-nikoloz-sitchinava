@@ -15,6 +15,47 @@ body {
     opacity: 20%;
 }
 
+
+header {
+    display: flex;
+    position: fixed;
+    height: 380px;
+    top: -250px;
+    z-index: 1;
+    transition: 0.7s;
+    &:hover {
+        top: 0px;
+    }
+        .headeritself {
+            height: 150px;
+            width: 2800px;
+            background-color: #1454dd;
+            box-shadow: 0px 23px 161px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 0px 23px 161px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 23px 161px 0px rgba(0,0,0,0.75);
+                nav {
+                    display: flex;
+                    width: 1950px;
+                    padding-top: 40px;
+                    box-sizing: border-box;
+                    justify-content: space-around;
+                        a {
+                            font-size: 45px;
+                            text-decoration: none;
+                            color: white;
+                        }
+
+                        #onthispage {
+                            color: aqua;
+                        }
+                }
+        }
+    
+
+}
+
+
+
 .websitename {
     margin-top: 250px;
     display: flex;
@@ -34,7 +75,7 @@ body {
     justify-content: center;
         .topgames {
         width: 1700px;
-        height: 720px;
+        height: 750px;
         background-color: #1454dd;
         display: flex;
         align-items: center;
@@ -54,7 +95,7 @@ body {
             .topratedgamesdivrow {
                 display: flex;
                 flex-direction: row;
-                gap: 45px;
+                gap: 50px;
                     #game1 {
                     background-image: url(./../images/mariogamethumbnail.jpg);
                     background-size: cover;
@@ -62,6 +103,9 @@ body {
                     height: 430px;
                     transition: 0.3s;
                     box-sizing: border-box;
+                    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
 
                         &:hover {
                             transform: scale(1.2);
@@ -76,6 +120,9 @@ body {
                     height: 430px;
                     transition: 0.3s;
                     box-sizing: border-box;
+                    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     
                         &:hover {
                             transform: scale(1.2);
@@ -90,6 +137,9 @@ body {
                     height: 430px;
                     transition: 0.3s;
                     box-sizing: border-box;
+                    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
 
                         &:hover {
                             transform: scale(1.2);
@@ -104,6 +154,9 @@ body {
                     height: 430px;
                     transition: 0.3s;
                     box-sizing: border-box;
+                    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
 
                         &:hover {
                             transform: scale(1.2);
