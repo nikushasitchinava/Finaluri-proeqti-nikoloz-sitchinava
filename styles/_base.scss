@@ -15,7 +15,6 @@ body {
     opacity: 20%;
 }
 
-
 header {
     display: flex;
     position: fixed;
@@ -25,14 +24,15 @@ header {
     transition: 0.7s;
     &:hover {
         top: 0px;
+        height: 150px;
     }
         .headeritself {
             height: 150px;
             width: 2800px;
             background-color: #1454dd;
-            box-shadow: 0px 23px 161px 0px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 0px 23px 161px 0px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0px 23px 161px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 19px 28px 1px rgba(0,4,23,0.75);
+            -webkit-box-shadow: 0px 19px 28px 1px rgba(0,4,23,0.75);
+            -moz-box-shadow: 0px 19px 28px 1px rgba(0,4,23,0.75);;
                 nav {
                     display: flex;
                     width: 1950px;
@@ -43,6 +43,7 @@ header {
                             font-size: 45px;
                             text-decoration: none;
                             color: white;
+                            text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
                         }
 
                         #onthispage {
@@ -60,11 +61,11 @@ header {
     margin-top: 250px;
     display: flex;
     justify-content: center;
-    margin-bottom: 310px;
+    margin-bottom: 210px;
         h1 {
-            font-size: 290px;
+            font-size: 340px;
             color: rgb(240, 244, 255);
-            letter-spacing: 25px;
+            letter-spacing: 45px;
             font-weight: 100;
             text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
         }
@@ -75,7 +76,7 @@ header {
     justify-content: center;
         .topgames {
         width: 1700px;
-        height: 750px;
+        height: 850px;
         background-color: #1454dd;
         display: flex;
         align-items: center;
@@ -106,6 +107,13 @@ header {
                     box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    position: relative;
+                        h1 {
+                            position: absolute;
+                            top: 430px;
+                            right: 85px;
+                            text-shadow: 4px 4px 5px rgba(0,5,29,0.72);
+                        }
 
                         &:hover {
                             transform: scale(1.2);
@@ -123,6 +131,14 @@ header {
                     box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    position: relative;
+                        h1 {
+                            position: absolute;
+                            top: 430px;
+                            right: 75px;
+                            font-size: 70px;
+                            text-shadow: 4px 4px 5px rgba(0,5,29,0.72);
+                        }
                     
                         &:hover {
                             transform: scale(1.2);
@@ -140,6 +156,13 @@ header {
                     box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    position: relative;
+                        h1 {
+                            position: absolute;
+                            top: 430px;
+                            font-size: 68px;
+                            text-shadow: 4px 4px 5px rgba(0,5,29,0.72);
+                        }
 
                         &:hover {
                             transform: scale(1.2);
@@ -157,6 +180,14 @@ header {
                     box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
                     -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+                    position: relative;
+                        h1 {
+                            position: absolute;
+                            top: 430px;
+                            right: 5px;
+                            font-size: 70px;
+                            text-shadow: 4px 4px 5px rgba(0,5,29,0.72);
+                        }
 
                         &:hover {
                             transform: scale(1.2);

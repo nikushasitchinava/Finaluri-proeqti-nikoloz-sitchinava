@@ -30,14 +30,15 @@ header {
 }
 header:hover {
   top: 0px;
+  height: 150px;
 }
 header .headeritself {
   height: 150px;
   width: 2800px;
   background-color: #1454dd;
-  box-shadow: 0px 23px 161px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 0px 23px 161px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 23px 161px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 19px 28px 1px rgba(0, 4, 23, 0.75);
+  -webkit-box-shadow: 0px 19px 28px 1px rgba(0, 4, 23, 0.75);
+  -moz-box-shadow: 0px 19px 28px 1px rgba(0, 4, 23, 0.75);
 }
 header .headeritself nav {
   display: flex;
@@ -50,6 +51,7 @@ header .headeritself nav a {
   font-size: 45px;
   text-decoration: none;
   color: white;
+  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
 }
 header .headeritself nav #onthispage {
   color: aqua;
@@ -59,12 +61,12 @@ header .headeritself nav #onthispage {
   margin-top: 250px;
   display: flex;
   justify-content: center;
-  margin-bottom: 310px;
+  margin-bottom: 210px;
 }
 .websitename h1 {
-  font-size: 290px;
+  font-size: 340px;
   color: rgb(240, 244, 255);
-  letter-spacing: 25px;
+  letter-spacing: 45px;
   font-weight: 100;
   text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
 }
@@ -75,7 +77,7 @@ header .headeritself nav #onthispage {
 }
 .topgamescenterthemdiv .topgames {
   width: 1700px;
-  height: 750px;
+  height: 850px;
   background-color: #1454dd;
   display: flex;
   align-items: center;
@@ -107,6 +109,13 @@ header .headeritself nav #onthispage {
   box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game1 h1 {
+  position: absolute;
+  top: 430px;
+  right: 85px;
+  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.72);
 }
 .topgamescenterthemdiv .topgames .topratedgamesdivrow #game1:hover {
   transform: scale(1.2);
@@ -122,6 +131,14 @@ header .headeritself nav #onthispage {
   box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game2 h1 {
+  position: absolute;
+  top: 430px;
+  right: 75px;
+  font-size: 70px;
+  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.72);
 }
 .topgamescenterthemdiv .topgames .topratedgamesdivrow #game2:hover {
   transform: scale(1.2);
@@ -137,6 +154,13 @@ header .headeritself nav #onthispage {
   box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game3 h1 {
+  position: absolute;
+  top: 430px;
+  font-size: 68px;
+  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.72);
 }
 .topgamescenterthemdiv .topgames .topratedgamesdivrow #game3:hover {
   transform: scale(1.2);
@@ -152,6 +176,14 @@ header .headeritself nav #onthispage {
   box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.topgamescenterthemdiv .topgames .topratedgamesdivrow #game4 h1 {
+  position: absolute;
+  top: 430px;
+  right: 5px;
+  font-size: 70px;
+  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.72);
 }
 .topgamescenterthemdiv .topgames .topratedgamesdivrow #game4:hover {
   transform: scale(1.2);

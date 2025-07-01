@@ -1,0 +1,16 @@
+body {
+    background-color: #010e54;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.backgroundgamescenefixed {
+    position: fixed;
+    top: 0;
+    height: 1510px;
+    width: 2914px;
+    background-image: url(./../../images/backgroundgamescenedivfixed.gif);
+    z-index: -1;
+    opacity: 20%;
+}
