@@ -1,3 +1,6 @@
-$mobile: 'screen and (min-device-width: 320px) and (max-device-width: 767px)';
-$tablet: 'screen and (min-device-width: 768px) and (max-device-width: 1024px)';
-$desktop: 'screen and (min-device-width: 1025px)';
+$laptopl: 'screen and (min-device-width: 1025px) and (max-device-width: 1440px)';
+$laptop: 'screen and (min-device-width: 1024px) and (max-device-width: 1224px)';
+$tablet: 'screen and (min-device-width: 768px) and (max-device-width: 1023px)';
+$mobilel: 'screen and (min-device-width: 425px) and (max-device-width: 767px)';
+$mobilem: 'screen and (min-device-width: 375px) and (max-device-width: 424px)';
+$mobiles: 'screen and (min-device-width: 320px) and (max-device-width: 374px)';
