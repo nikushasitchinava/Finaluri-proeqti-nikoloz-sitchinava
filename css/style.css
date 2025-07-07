@@ -13,7 +13,7 @@ body {
 .backgroundgamescenefixed {
   position: fixed;
   top: 0;
-  height: 1510px;
+  height: 1665px;
   width: 100%;
   background-image: url(./../images/backgroundgamescenedivfixed.gif);
   z-index: -1;
