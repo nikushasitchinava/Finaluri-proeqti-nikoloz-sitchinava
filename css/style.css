@@ -182,6 +182,10 @@ main .gamesection .game:hover {
 }
 .TBC .tbcphoto {
   width: 310px;
+  transition: 0.4s;
+}
+.TBC .tbcphoto:hover {
+  scale: 1.2;
 }
 
 footer {
@@ -797,7 +801,8 @@ footer .line {
     align-items: center;
     flex-direction: column;
     background-color: #1454dd;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
   }
   footer h1 {
     color: white;
