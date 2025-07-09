@@ -21,7 +21,8 @@ header {
     position: fixed;
     height: 380px;
     width: 100%;
-    top: -280px;
+    top: 0px;   
+    // -280px unda davwero topshi mere
     z-index: 1;
     transition: 0.7s;
     &:hover {
@@ -41,6 +42,10 @@ header {
                 display: flex;
                 width: 280px;
                 justify-content: space-between;
+                    i {
+                        display: none;
+                    }
+
                     .reglog {
                     font-size: 40px;
                     text-decoration: none;
