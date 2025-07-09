@@ -13,7 +13,7 @@ header {
                 width: 156px;
                 justify-content: space-between;
                     i {
-                        display: inline-block;
+                        display: none;
                         font-size: 50px;
                         color: white;
                     }
@@ -21,6 +21,12 @@ header {
                     .reglog {
                       display: none;
                     }
+                }
+
+                .Menubar {
+                    display: inline-block;
+                    font-size: 50px;
+                    color: white;
                 }
 
 
@@ -194,6 +200,10 @@ footer {
     height: 250px;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    background-color: #1454dd;
+    padding-top: 25px;
+    padding-bottom: 50px;
             h1 {
             color: white;
             font-size: 45px;
@@ -203,11 +213,6 @@ footer {
         }
 
         .line {
-            width: 5px;
-            height: 90px;
-            background-color: white;
-            box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
-            -webkit-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
-            -moz-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
+            display: none;
         }
 }

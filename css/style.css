@@ -26,7 +26,7 @@ header {
   position: fixed;
   height: 380px;
   width: 100%;
-  top: 0px;
+  top: -280px;
   z-index: 1;
   transition: 0.7s;
 }
@@ -62,6 +62,9 @@ header .headeritself .Reglogdiv .reglog {
 header .headeritself .Reglogdiv .reglog:hover {
   color: rgb(255, 255, 255);
 }
+header .headeritself .Menubar {
+  display: none;
+}
 header .headeritself nav {
   display: flex;
   width: 800px;
@@ -85,13 +88,13 @@ header .headeritself nav #onthispage {
   margin-top: 250px;
   display: flex;
   justify-content: center;
-  margin-bottom: 210px;
+  margin-bottom: 150px;
 }
 .websitename h1 {
-  font-size: 340px;
+  font-size: 270px;
   color: rgb(240, 244, 255);
   letter-spacing: 45px;
-  font-weight: 100;
+  font-weight: 1;
   text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
 }
 
@@ -169,6 +172,16 @@ main .gamesection .game:hover {
   box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
   -webkit-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
   -moz-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+}
+
+.TBC {
+  background-color: #010025;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+.TBC .tbcphoto {
+  width: 310px;
 }
 
 footer {
@@ -481,12 +494,17 @@ footer .line {
     justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
-    display: inline-block;
+    display: none;
     font-size: 50px;
     color: white;
   }
   header .headeritself .Reglogdiv .reglog {
     display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
   }
   header .headeritself nav {
     display: none;
@@ -610,6 +628,10 @@ footer .line {
     height: 250px;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    background-color: #1454dd;
+    padding-top: 25px;
+    padding-bottom: 50px;
   }
   footer h1 {
     color: white;
@@ -619,11 +641,172 @@ footer .line {
     font-weight: 100;
   }
   footer .line {
-    width: 5px;
-    height: 90px;
-    background-color: white;
-    box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
-    -webkit-box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
-    -moz-box-shadow: 10px 10px 74px 3px rgba(0, 0, 0, 0.57);
+    display: none;
+  }
+}
+@media screen and (min-device-width: 425px) and (max-device-width: 589px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    margin-left: 50px;
+    display: flex;
+    width: 156px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: none;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself nav {
+    display: none;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
+  .websitename {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 210px;
+  }
+  .websitename h1 {
+    font-size: 77px;
+    color: rgb(240, 244, 255);
+    letter-spacing: 45px;
+    font-weight: 100;
+    text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
+  }
+  main .tittle {
+    display: flex;
+    justify-content: center;
+  }
+  main .tittle .topratgmsTittle {
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
+  main .topgames {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1454dd;
+    padding: 70px 0px;
+    margin-bottom: 180px;
+  }
+  main .topgames .topratedgame {
+    width: 130px;
+    height: 230px;
+    background-size: cover;
+    transition: 0.5s;
+  }
+  main .topgames .topratedgame:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+  }
+  main .topgames #Game1 {
+    background-image: url(./../images/mariogamethumbnail.jpg);
+  }
+  main .topgames #Game2 {
+    background-image: url(./../images/mariobrosgame3thumbnail.png);
+  }
+  main .topgames #Game3 {
+    background-image: url(./../images/nfsunbound.png);
+  }
+  main .topgames #Game4 {
+    display: none;
+  }
+  main .smalltittle {
+    display: flex;
+    justify-content: center;
+  }
+  main .smalltittle .smalltittleh1 {
+    font-size: 70px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  main .gamesection {
+    margin-top: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .gamesection .game {
+    width: 150px;
+    height: 250px;
+    background-image: url(./../images/mariogamethumbnail.jpg);
+    background-size: cover;
+    transition: 0.5s;
+  }
+  main .gamesection .game:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+  }
+  main .gamesection #racingnone {
+    display: none;
+  }
+  main .gamesection #actionnone {
+    display: none;
+  }
+  main .gamesection #multiplayernone {
+    display: none;
+  }
+  main .gamesection #sportnone {
+    display: none;
+  }
+  footer {
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1454dd;
+    padding-top: 20px;
+  }
+  footer h1 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 12px;
+    text-shadow: 4px 4px 5px rgba(0, 11, 26, 0.6);
+    font-weight: 100;
+  }
+  footer .line {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
