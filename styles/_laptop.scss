@@ -5,7 +5,6 @@ header {
             background-color: #1454dd;
             display: flex;
             justify-content: space-around;
-            padding-top: 40px;
             box-sizing: border-box;
                 .Reglogdiv{
                 margin-left: 50px;
@@ -13,7 +12,7 @@ header {
                 width: 156px;
                 justify-content: space-between;
                     i {
-                        display: inline-block;
+                        display: none;
                         font-size: 50px;
                         color: white;
                     }
@@ -23,10 +22,15 @@ header {
                     }
                 }
 
+                .Menubar {
+                    display: inline-block;
+                    font-size: 50px;
+                    color: white;
+                }
+
 
                 nav {
-                display: flex;
-                width: 800px;
+                display: none;
                 justify-content: space-between;
                     a {
                     font-size: 40px;
@@ -52,20 +56,6 @@ header {
 
 
 
-
-.websitename {
-    margin-top: 250px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 210px;
-        h1 {
-            font-size: 230px;
-            color: rgb(240, 244, 255);
-            letter-spacing: 45px;
-            font-weight: 100;
-            text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
-        }
-}
 
 
 main {

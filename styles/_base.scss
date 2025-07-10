@@ -12,7 +12,7 @@ body {
     width: 100%;
     background-image: url(./../images/backgroundgamescenedivfixed.gif);
     z-index: -1;
-    opacity: 20%;
+    opacity: 25%;
     background-size: contain;
 }
 
@@ -34,13 +34,23 @@ header {
             background-color: #1454dd;
             display: flex;
             justify-content: space-around;
-            padding-top: 40px;
             box-sizing: border-box;
+            box-shadow: 0px 24px 17px 29px rgba(0,7,36,0.69);
+            -webkit-box-shadow: 0px 24px 17px 29px rgba(0,7,36,0.69);
+            -moz-box-shadow: 0px 24px 17px 29px rgba(0,7,36,0.69);
+                .hlogo{
+                display: flex;
+                width: 90px;
+                height: 82px;
+                margin-top: 22px;
+                }
+
                 .Reglogdiv{
                 margin-left: 50px;
                 display: flex;
                 width: 280px;
                 justify-content: space-between;
+                margin-top: 40px;
                     i {
                         display: none;
                     }
@@ -61,6 +71,7 @@ header {
                 }
                 
                 .Menubar {
+                    margin-top: 40px;
                     display: none;
                 }
 
@@ -68,6 +79,7 @@ header {
                 display: flex;
                 width: 800px;
                 justify-content: space-between;
+                margin-top: 40px;
                     a {
                     font-size: 40px;
                     text-decoration: none;
@@ -87,7 +99,6 @@ header {
                 }
         }
     
-
 }
 
 
@@ -97,12 +108,20 @@ header {
 margin-top: 155px;
 display: flex;
 justify-content: center;
-margin-bottom: 240px;
+margin-bottom: 370px;
     .logophoto {
         width: 400px;
-        width: 25%;
+        width: 20%;
+        animation-name: logo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
     }
 }
+
+
+
+
 
 
 
@@ -112,7 +131,7 @@ main {
     display: flex;
     justify-content: center;
         .topratgmsTittle {
-            font-size: 90px;
+            font-size: 60px;
             text-decoration: none;
             color: rgb(255, 255, 255);
             text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
@@ -137,6 +156,10 @@ main {
             box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
             -webkit-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
             -moz-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
+            }
+
+            &:active {
+                transform: scale(0.7);
             }
 
             }
@@ -190,6 +213,10 @@ main {
         -webkit-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
         -moz-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
         }
+
+        &:active {
+            transform: scale(0.7);
+        }
         
         }
     }
@@ -213,8 +240,23 @@ main {
             &:hover {
                 scale: 1.2;
             }
+
+            &:active {
+                transform: scale(0.4);
+            }
         }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -248,4 +290,40 @@ footer {
             -webkit-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
             -moz-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
         }
+}
+
+
+
+
+
+
+
+
+
+
+
+// ანიმაციები
+
+
+@keyframes logo {
+    0% {
+        transform: scaleX(1);
+    }
+
+
+
+    20% {
+        transform: scaleX(-1);
+    }
+
+
+    40% {
+        transform: scaleX(1);
+    }
+
+
+
+    100% {
+        transform: scaleX(1);
+    }
 }

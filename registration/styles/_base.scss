@@ -22,12 +22,28 @@ body {
 
 
 
+.logo {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+    .logophoto {
+        width: 15%;
+    }
+}
+
+
+
+
+
+
+
 
 
 .flexform {
 display: flex;
 justify-content: center;
-height: 850px;
+height: 650px;
 align-items: center;
     .registrationtittle {
         color: white;
