@@ -90,18 +90,18 @@ header {
 
 }
 
-.websitename {
-    margin-top: 250px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 150px;
-        h1 {
-            font-size: 270px;
-            color: rgb(240, 244, 255);
-            letter-spacing: 45px;
-            font-weight: 1;
-            text-shadow: 4px 4px 32px rgba(0, 8, 36, 0.76);
-        }
+
+
+
+.logo {
+margin-top: 155px;
+display: flex;
+justify-content: center;
+margin-bottom: 240px;
+    .logophoto {
+        width: 400px;
+        width: 25%;
+    }
 }
 
 
@@ -112,7 +112,7 @@ main {
     display: flex;
     justify-content: center;
         .topratgmsTittle {
-            font-size: 120px;
+            font-size: 90px;
             text-decoration: none;
             color: rgb(255, 255, 255);
             text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
