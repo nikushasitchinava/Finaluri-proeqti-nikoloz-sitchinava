@@ -121,6 +121,39 @@ header .headeritself nav #onthispage {
   animation-delay: 2s;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+form .searchgame {
+  width: 40%;
+  height: 50px;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+form button {
+  width: 20%;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #102dd3;
+  color: white;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+form button:hover {
+  background-color: #334ff0;
+}
+form button:active {
+  background-color: #001381;
+}
+
 main .tittle {
   display: flex;
   justify-content: center;
@@ -293,12 +326,13 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-footer h1 {
+footer a {
   color: white;
   font-size: 45px;
   letter-spacing: 12px;
   text-shadow: 0px 0px 6px rgb(0, 0, 0);
   font-weight: 100;
+  text-decoration: none;
 }
 footer .line {
   width: 5px;
