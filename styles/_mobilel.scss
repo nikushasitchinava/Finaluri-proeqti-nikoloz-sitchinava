@@ -7,9 +7,8 @@ header {
             justify-content: space-around;
             box-sizing: border-box;
                 .Reglogdiv{
-                margin-left: 50px;
                 display: flex;
-                width: 156px;
+                width: 0px;
                 justify-content: space-between;
                     i {
                         display: none;
@@ -133,7 +132,7 @@ main {
     display: flex;
     justify-content: center;
         .smalltittleh1 {
-            font-size: 70px;
+            font-size: 50px;
             text-decoration: none;
             color: rgb(255, 255, 255);
             text-shadow: 4px 4px 5px rgba(0,5,29,0.35);

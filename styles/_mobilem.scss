@@ -7,9 +7,8 @@ header {
             justify-content: space-around;
             box-sizing: border-box;
                 .Reglogdiv{
-                margin-left: 50px;
                 display: flex;
-                width: 156px;
+                width: 0px;
                 justify-content: space-between;
                     i {
                         display: none;
@@ -120,7 +119,7 @@ main {
                 background-image: url(./../images/mariobrosgame3thumbnail.png);
             }
             #Game3 {
-                background-image: url(./../images/nfsunbound.png);
+                display: none;
             }
             #Game4 {
                 display: none;
@@ -134,7 +133,7 @@ main {
     display: flex;
     justify-content: center;
         .smalltittleh1 {
-            font-size: 70px;
+            font-size: 40px;
             text-decoration: none;
             color: rgb(255, 255, 255);
             text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
@@ -168,7 +167,15 @@ main {
             display: none;
         }
 
+        #racegame3 {
+            display: none;
+        }
+
         #actionnone {
+            display: none;
+        }
+
+        #actiongame3 {
             display: none;
         }
 
@@ -176,7 +183,15 @@ main {
             display: none;
         }
 
+        #multiplayergame3 {
+            display: none;
+        }
+
         #sportnone {
+            display: none;
+        }
+
+        #adventuregame3 {
             display: none;
         }
     }

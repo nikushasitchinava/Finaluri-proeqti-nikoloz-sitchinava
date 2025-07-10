@@ -780,7 +780,7 @@ footer .line {
     display: none;
   }
 }
-@media screen and (min-device-width: 425px) and (max-device-width: 589px) {
+@media screen and (min-device-width: 465px) and (max-device-width: 589px) {
   header .headeritself {
     height: 150px;
     width: 100%;
@@ -790,9 +790,8 @@ footer .line {
     box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
-    margin-left: 50px;
     display: flex;
-    width: 156px;
+    width: 0px;
     justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
@@ -883,7 +882,7 @@ footer .line {
     justify-content: center;
   }
   main .smalltittle .smalltittleh1 {
-    font-size: 70px;
+    font-size: 50px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
@@ -943,7 +942,7 @@ footer .line {
     display: none;
   }
 }
-@media screen and (min-device-width: 375px) and (max-device-width: 424px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 464px) {
   header .headeritself {
     height: 150px;
     width: 100%;
@@ -953,9 +952,8 @@ footer .line {
     box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
-    margin-left: 50px;
     display: flex;
-    width: 156px;
+    width: 0px;
     justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
@@ -1036,7 +1034,7 @@ footer .line {
     background-image: url(./../images/mariobrosgame3thumbnail.png);
   }
   main .topgames #Game3 {
-    background-image: url(./../images/nfsunbound.png);
+    display: none;
   }
   main .topgames #Game4 {
     display: none;
@@ -1046,7 +1044,7 @@ footer .line {
     justify-content: center;
   }
   main .smalltittle .smalltittleh1 {
-    font-size: 70px;
+    font-size: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
@@ -1076,13 +1074,199 @@ footer .line {
   main .gamesection #racingnone {
     display: none;
   }
+  main .gamesection #racegame3 {
+    display: none;
+  }
   main .gamesection #actionnone {
+    display: none;
+  }
+  main .gamesection #actiongame3 {
     display: none;
   }
   main .gamesection #multiplayernone {
     display: none;
   }
+  main .gamesection #multiplayergame3 {
+    display: none;
+  }
   main .gamesection #sportnone {
+    display: none;
+  }
+  main .gamesection #adventuregame3 {
+    display: none;
+  }
+  footer {
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1454dd;
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  footer h1 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 12px;
+    text-shadow: 4px 4px 5px rgba(0, 11, 26, 0.6);
+    font-weight: 100;
+  }
+  footer .line {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    display: flex;
+    width: 0px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: none;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself nav {
+    display: none;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
+  .logo {
+    margin-top: 155px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 240px;
+  }
+  .logo .logophoto {
+    width: 400px;
+    width: 35%;
+  }
+  main .tittle {
+    display: flex;
+    justify-content: center;
+  }
+  main .tittle .topratgmsTittle {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
+  main .topgames {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1454dd;
+    padding: 70px 0px;
+    margin-bottom: 180px;
+  }
+  main .topgames .topratedgame {
+    width: 130px;
+    height: 230px;
+    background-size: cover;
+    transition: 0.5s;
+  }
+  main .topgames .topratedgame:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+  }
+  main .topgames #Game1 {
+    background-image: url(./../images/mariogamethumbnail.jpg);
+  }
+  main .topgames #Game2 {
+    background-image: url(./../images/mariobrosgame3thumbnail.png);
+  }
+  main .topgames #Game3 {
+    display: none;
+  }
+  main .topgames #Game4 {
+    display: none;
+  }
+  main .smalltittle {
+    display: flex;
+    justify-content: center;
+  }
+  main .smalltittle .smalltittleh1 {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  main .gamesection {
+    margin-top: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .gamesection .game {
+    width: 150px;
+    height: 250px;
+    background-image: url(./../images/mariogamethumbnail.jpg);
+    background-size: cover;
+    transition: 0.5s;
+  }
+  main .gamesection .game:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+  }
+  main .gamesection #racingnone {
+    display: none;
+  }
+  main .gamesection #racegame3 {
+    display: none;
+  }
+  main .gamesection #actionnone {
+    display: none;
+  }
+  main .gamesection #actiongame3 {
+    display: none;
+  }
+  main .gamesection #multiplayernone {
+    display: none;
+  }
+  main .gamesection #multiplayergame3 {
+    display: none;
+  }
+  main .gamesection #sportnone {
+    display: none;
+  }
+  main .gamesection #adventuregame3 {
     display: none;
   }
   footer {
