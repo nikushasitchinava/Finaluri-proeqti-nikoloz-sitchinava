@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #010e54;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.backgroundgamescenefixed {
+  position: fixed;
+  top: 0;
+  height: 1665px;
+  width: 100%;
+  background-image: url(./../../images/backgroundgamescenedivfixed.gif);
+  z-index: -1;
+  opacity: 20%;
+  background-size: contain;
+}
+
+.flexform {
+  display: flex;
+  justify-content: center;
+  height: 850px;
+  align-items: center;
+}
+.flexform form {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flexform form input {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  width: 80%;
+  margin-bottom: 15px;
+}
+.flexform form h1 {
+  margin-top: 50px;
+  color: white;
+  font-weight: 100;
+  font-size: 35px;
+}
+.flexform form a {
+  color: rgb(0, 217, 255);
+  font-weight: 400;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
