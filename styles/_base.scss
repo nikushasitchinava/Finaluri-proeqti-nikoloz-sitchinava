@@ -150,6 +150,18 @@ margin-bottom: 150px;
         padding-right: 15px;
         border-radius: 15px;
         box-sizing: border-box;
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+
+    .searchgame::placeholder {
+        color: rgb(145, 147, 177);
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
     }
 
     button {
