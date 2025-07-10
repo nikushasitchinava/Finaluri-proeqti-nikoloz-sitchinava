@@ -3,6 +3,7 @@ body {
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-bottom: 50px;
 }
 
 .backgroundgamescenefixed {
@@ -23,12 +24,16 @@ body {
 
 
 .logo {
-margin-top: 50px;
+margin-top: 55px;
 display: flex;
 justify-content: center;
-margin-bottom: 20px;
     .logophoto {
+        width: 400px;
         width: 15%;
+        animation-name: logo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
     }
 }
 
@@ -135,5 +140,41 @@ align-items: center;
             font-weight: 400;
             text-decoration: none;
         }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// ანიმაციები
+
+
+@keyframes logo {
+    0% {
+        transform: scaleX(1);
+    }
+
+
+
+    20% {
+        transform: scaleX(-1);
+    }
+
+
+    40% {
+        transform: scaleX(1);
+    }
+
+
+
+    100% {
+        transform: scaleX(1);
     }
 }

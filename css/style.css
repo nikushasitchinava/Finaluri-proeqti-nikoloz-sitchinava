@@ -17,7 +17,7 @@ body {
   width: 100%;
   background-image: url(./../images/backgroundgamescenedivfixed.gif);
   z-index: -1;
-  opacity: 25%;
+  opacity: 20%;
   background-size: contain;
 }
 
@@ -50,6 +50,10 @@ header .headeritself .hlogo {
   width: 90px;
   height: 82px;
   margin-top: 22px;
+  transition: 0.5s;
+}
+header .headeritself .hlogo:hover {
+  transform: scale(1.2);
 }
 header .headeritself .Reglogdiv {
   margin-left: 50px;
@@ -60,20 +64,27 @@ header .headeritself .Reglogdiv {
 }
 header .headeritself .Reglogdiv i {
   display: none;
+  transition: 0.5s;
+}
+header .headeritself .Reglogdiv i:hover {
+  transform: scale(1.2);
 }
 header .headeritself .Reglogdiv .reglog {
   font-size: 40px;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+  text-shadow: 0px 0px 6px rgb(0, 0, 0);
   transition: 0.3s;
 }
 header .headeritself .Reglogdiv .reglog:hover {
-  color: rgb(255, 255, 255);
+  transform: scale(1.2);
 }
 header .headeritself .Menubar {
   margin-top: 40px;
   display: none;
+}
+header .headeritself .Menubar:hover {
+  transform: scale(1.2);
 }
 header .headeritself nav {
   display: flex;
@@ -85,11 +96,11 @@ header .headeritself nav a {
   font-size: 40px;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+  text-shadow: 0px 0px 6px rgb(0, 0, 0);
   transition: 0.3s;
 }
 header .headeritself nav a:hover {
-  color: rgb(255, 255, 255);
+  transform: scale(1.2);
 }
 header .headeritself nav #onthispage {
   color: rgb(0, 255, 255);
@@ -99,7 +110,7 @@ header .headeritself nav #onthispage {
   margin-top: 155px;
   display: flex;
   justify-content: center;
-  margin-bottom: 370px;
+  margin-bottom: 239px;
 }
 .logo .logophoto {
   width: 400px;
@@ -118,7 +129,7 @@ main .tittle .topratgmsTittle {
   font-size: 60px;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+  text-shadow: 0px 0px 6px rgb(0, 0, 0);
   font-weight: 100;
   margin-bottom: 40px;
 }
@@ -128,6 +139,9 @@ main .topgames {
   background-color: #1454dd;
   padding: 70px 0px;
   margin-bottom: 180px;
+  box-shadow: -1px 44px 75px 18px rgba(0, 7, 36, 0.58);
+  -webkit-box-shadow: -1px 44px 75px 18px rgba(0, 7, 36, 0.58);
+  -moz-box-shadow: -1px 44px 75px 18px rgba(0, 7, 36, 0.58);
 }
 main .topgames .topratedgame {
   width: 290px;
@@ -137,9 +151,9 @@ main .topgames .topratedgame {
 }
 main .topgames .topratedgame:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
-  -webkit-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
-  -moz-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.86);
+  -webkit-box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.86);
+  -moz-box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.86);
 }
 main .topgames .topratedgame:active {
   transform: scale(0.7);
@@ -164,7 +178,7 @@ main .smalltittle .smalltittleh1 {
   font-size: 90px;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+  text-shadow: 0px 0px 6px rgb(0, 0, 0);
   font-weight: 100;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -178,18 +192,79 @@ main .gamesection {
 main .gamesection .game {
   width: 290px;
   height: 400px;
-  background-image: url(./../images/mariogamethumbnail.jpg);
   background-size: cover;
   transition: 0.5s;
+  opacity: 80%;
 }
 main .gamesection .game:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
-  -webkit-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
-  -moz-box-shadow: 0px 0px 165px 4px rgba(255, 255, 255, 0.6);
+  opacity: 100%;
+  box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.86);
+  -webkit-box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.86);
+  -moz-box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.86);
 }
 main .gamesection .game:active {
   transform: scale(0.7);
+}
+main .gamesection #actiongame1 {
+  background-image: url(./../images/actiongame1.png);
+}
+main .gamesection #actiongame2 {
+  background-image: url(./../images/actiongame2.png);
+  background-position: center;
+}
+main .gamesection #actiongame3 {
+  background-image: url(./../images/actiongame3.png);
+  background-position: center;
+}
+main .gamesection #actionnone {
+  background-image: url(./../images/actiongame4.png);
+  background-position: center;
+}
+main .gamesection #racegame1 {
+  background-image: url(./../images/racinggame1.png);
+  background-position: center;
+}
+main .gamesection #racegame2 {
+  background-image: url(./../images/racinggame2.png);
+  background-position: center;
+}
+main .gamesection #racegame3 {
+  background-image: url(./../images/nfsunbound.png);
+}
+main .gamesection #racingnone {
+  background-image: url(./../images/racinggame3.png);
+  background-position: right;
+}
+main .gamesection #multiplayergame1 {
+  background-image: url(./../images/mariogamethumbnail.jpg);
+  background-position: center;
+}
+main .gamesection #multiplayergame2 {
+  background-image: url(./../images/mariobrosgame3thumbnail.png);
+  background-position: center;
+}
+main .gamesection #multiplayergame3 {
+  background-image: url(./../images/multiplayergame1.png);
+}
+main .gamesection #multiplayernone {
+  background-image: url(./../images/multiplayergame2.png);
+  background-position: right;
+}
+main .gamesection #adventuregame1 {
+  background-image: url(./../images/actiongame3.png);
+  background-position: center;
+}
+main .gamesection #adventuregame2 {
+  background-image: url(./../images/actiongame4.png);
+  background-position: center;
+}
+main .gamesection #adventuregame3 {
+  background-image: url(./../images/multiplayergame1.png);
+}
+main .gamesection #sportnone {
+  background-image: url(./../images/cargame1.png);
+  background-position: center;
 }
 
 .TBC {
@@ -197,6 +272,9 @@ main .gamesection .game:active {
   display: flex;
   justify-content: center;
   padding: 30px 0px;
+  box-shadow: -1px 44px 75px 18px rgba(0, 7, 36, 0.58);
+  -webkit-box-shadow: -1px 44px 75px 18px rgba(0, 7, 36, 0.58);
+  -moz-box-shadow: -1px 44px 75px 18px rgba(0, 7, 36, 0.58);
 }
 .TBC .tbcphoto {
   width: 310px;
@@ -219,7 +297,7 @@ footer h1 {
   color: white;
   font-size: 45px;
   letter-spacing: 12px;
-  text-shadow: 4px 4px 5px rgba(0, 11, 26, 0.6);
+  text-shadow: 0px 0px 6px rgb(0, 0, 0);
   font-weight: 100;
 }
 footer .line {

@@ -12,7 +12,7 @@ body {
     width: 100%;
     background-image: url(./../images/backgroundgamescenedivfixed.gif);
     z-index: -1;
-    opacity: 25%;
+    opacity: 20%;
     background-size: contain;
 }
 
@@ -43,6 +43,12 @@ header {
                 width: 90px;
                 height: 82px;
                 margin-top: 22px;
+                transition: 0.5s;
+
+                &:hover {
+                transform: scale(1.2);
+                }
+
                 }
 
                 .Reglogdiv{
@@ -53,17 +59,22 @@ header {
                 margin-top: 40px;
                     i {
                         display: none;
+                        transition: 0.5s;
+
+                        &:hover {
+                        transform: scale(1.2);
+                        }
                     }
 
                     .reglog {
                     font-size: 40px;
                     text-decoration: none;
                     color: rgb(255, 255, 255);
-                    text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
+                    text-shadow: 0px 0px 6px rgba(0,0,0,1);
                     transition: 0.3s;
                         
                     &:hover {
-                        color: rgb(255, 255, 255);
+                        transform: scale(1.2);
                     }
                     
                     }
@@ -73,6 +84,10 @@ header {
                 .Menubar {
                     margin-top: 40px;
                     display: none;
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
 
                 nav {
@@ -84,11 +99,11 @@ header {
                     font-size: 40px;
                     text-decoration: none;
                     color: rgb(255, 255, 255);
-                    text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
+                    text-shadow: 0px 0px 6px rgba(0,0,0,1);
                     transition: 0.3s;
 
                     &:hover {
-                        color: rgb(255, 255, 255);
+                        transform: scale(1.2);
                         }
                     }
 
@@ -108,7 +123,7 @@ header {
 margin-top: 155px;
 display: flex;
 justify-content: center;
-margin-bottom: 370px;
+margin-bottom: 239px;
     .logophoto {
         width: 400px;
         width: 20%;
@@ -134,7 +149,7 @@ main {
             font-size: 60px;
             text-decoration: none;
             color: rgb(255, 255, 255);
-            text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
+            text-shadow: 0px 0px 6px rgba(0,0,0,1);
             font-weight: 100;
             margin-bottom: 40px;
         }
@@ -145,6 +160,9 @@ main {
         background-color: #1454dd;
         padding: 70px 0px;
         margin-bottom: 180px;
+        box-shadow: -1px 44px 75px 18px rgba(0,7,36,0.58);
+        -webkit-box-shadow: -1px 44px 75px 18px rgba(0,7,36,0.58);
+        -moz-box-shadow: -1px 44px 75px 18px rgba(0,7,36,0.58);
             .topratedgame {
             width: 290px;
             height: 400px;
@@ -153,9 +171,9 @@ main {
 
             &:hover {
             transform: scale(1.1);
-            box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
-            -webkit-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
-            -moz-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
+            box-shadow: 0px 0px 0px 28px rgba(255,255,255,0.86);
+            -webkit-box-shadow: 0px 0px 0px 28px rgba(255,255,255,0.86);
+            -moz-box-shadow: 0px 0px 0px 28px rgba(255,255,255,0.86);
             }
 
             &:active {
@@ -188,7 +206,7 @@ main {
             font-size: 90px;
             text-decoration: none;
             color: rgb(255, 255, 255);
-            text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
+            text-shadow: 0px 0px 6px rgba(0,0,0,1);
             font-weight: 100;
             margin-top: 20px;
             margin-bottom: 40px;
@@ -203,15 +221,16 @@ main {
         .game {
         width: 290px;
         height: 400px;
-        background-image: url(./../images/mariogamethumbnail.jpg);
         background-size: cover;
         transition: 0.5s;
+        opacity: 80%;
 
         &:hover {
         transform: scale(1.1);
-        box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
-        -webkit-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
-        -moz-box-shadow: 0px 0px 165px 4px rgba(255,255,255,0.6);
+        opacity: 100%;
+        box-shadow: 0px 0px 0px 28px rgba(255,255,255,0.86);
+        -webkit-box-shadow: 0px 0px 0px 28px rgba(255,255,255,0.86);
+        -moz-box-shadow: 0px 0px 0px 28px rgba(255,255,255,0.86);
         }
 
         &:active {
@@ -219,6 +238,114 @@ main {
         }
         
         }
+
+
+        #actiongame1 {
+            background-image: url(./../images/actiongame1.png);
+        }
+
+        #actiongame2 {
+            background-image: url(./../images/actiongame2.png);
+            background-position: center;
+        }
+
+        #actiongame3 {
+            background-image: url(./../images/actiongame3.png);
+            background-position: center;
+        }
+
+        #actionnone {
+            background-image: url(./../images/actiongame4.png);
+            background-position: center;
+        }
+
+
+
+
+
+
+
+
+
+        #racegame1 {
+            background-image: url(./../images/racinggame1.png);
+            background-position: center;
+        }
+
+        #racegame2 {
+            background-image: url(./../images/racinggame2.png);
+            background-position: center;
+        }
+
+        #racegame3 {
+            background-image: url(./../images/nfsunbound.png);
+        }
+
+        #racingnone {
+            background-image: url(./../images/racinggame3.png);
+            background-position: right;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        #multiplayergame1 {
+            background-image: url(./../images/mariogamethumbnail.jpg);
+            background-position: center;
+        }
+
+        #multiplayergame2 {
+            background-image: url(./../images/mariobrosgame3thumbnail.png);
+            background-position: center;
+        }
+
+        #multiplayergame3 {
+            background-image: url(./../images/multiplayergame1.png);
+        }
+
+        #multiplayernone {
+            background-image: url(./../images/multiplayergame2.png);
+            background-position: right;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        #adventuregame1 {
+            background-image: url(./../images/actiongame3.png);
+            background-position: center;
+        }
+
+        #adventuregame2 {
+            background-image: url(./../images/actiongame4.png);
+            background-position: center;
+        }
+
+        #adventuregame3 {
+            background-image: url(./../images/multiplayergame1.png);
+        }
+
+        #sportnone {
+            background-image: url(./../images/cargame1.png);
+            background-position: center;
+        }
+
+
     }
 }
 
@@ -233,6 +360,9 @@ main {
     display: flex;
     justify-content: center;
     padding: 30px 0px;
+    box-shadow: -1px 44px 75px 18px rgba(0,7,36,0.58);
+    -webkit-box-shadow: -1px 44px 75px 18px rgba(0,7,36,0.58);
+    -moz-box-shadow: -1px 44px 75px 18px rgba(0,7,36,0.58);
         .tbcphoto {
             width: 310px;
             transition: 0.4s;
@@ -278,7 +408,7 @@ footer {
             color: white;
             font-size: 45px;
             letter-spacing: 12px;
-            text-shadow: 4px 4px 5px rgba(0,11,26,0.6);
+            text-shadow: 0px 0px 6px rgba(0,0,0,1);
             font-weight: 100;
         }
 
