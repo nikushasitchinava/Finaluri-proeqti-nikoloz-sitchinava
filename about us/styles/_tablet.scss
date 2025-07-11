@@ -1,0 +1,100 @@
+header {
+        .headeritself {
+            height: 150px;
+            width: 100%;
+            background-color: #1454dd;
+            display: flex;
+            justify-content: space-around;
+            box-sizing: border-box;
+                .Reglogdiv{
+                margin-left: 50px;
+                display: flex;
+                width: 156px;
+                justify-content: space-between;
+                    i {
+                        display: none;
+                        font-size: 50px;
+                        color: white;
+                    }
+                
+                    .reglog {
+                      display: none;
+                    }
+                }
+
+                .Menubar {
+                    display: inline-block;
+                    font-size: 50px;
+                    color: white;
+                }
+
+
+                nav {
+                display: none;
+                justify-content: space-between;
+                    a {
+                    font-size: 40px;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: rgb(255, 255, 255);
+                        }
+                    }
+
+                    #onthispage {
+                        color: rgb(0, 255, 255);
+                    }
+                 
+                }
+        }
+    
+
+}
+
+
+
+
+
+.pagetittlediv {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+    .pagetittle {
+        color: white;
+        font-size: 120px;
+        font-weight: 200;
+    }
+}
+
+
+.flexdescbox {
+display: flex;
+justify-content: center;
+    .descbox {
+        width: 93%;
+        height: 400px;
+        background-color: #1454dd;
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+            h1 {
+                color: white;
+                font-weight: 100;
+                text-align: center;
+                letter-spacing: 1px;
+                font-size: 17px;
+                line-height: 20px;
+            }
+
+            a {
+                color: rgb(39, 255, 255);
+                font-weight: 100;
+                text-align: center;
+                text-decoration: none;
+            }
+    }
+}
