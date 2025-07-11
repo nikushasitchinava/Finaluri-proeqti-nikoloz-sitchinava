@@ -127,12 +127,42 @@ header .headeritself nav #onthispage {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 900px;
+  height: 340px;
+  flex-wrap: wrap;
+  margin-top: 170px;
 }
 .flexcontactbox .contactusdetails {
   width: 80%;
-  height: 550px;
+  height: 250px;
   background-color: #1454dd;
+  padding-top: 40px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.flexcontactbox .contactusdetails h1 {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-weight: 100;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.flexcontactbox .contactusdetailsgamedev {
+  width: 80%;
+  height: 250px;
+  background-color: #dd8d14;
+  padding-top: 40px;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.flexcontactbox .contactusdetailsgamedev h1 {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-weight: 100;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 
 @media screen and (min-device-width: 1225px) and (max-device-width: 1440px) {

@@ -141,10 +141,41 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 340px;
+    flex-wrap: wrap;
+    margin-top: 170px;
         .contactusdetails {
             width: 80%;
-            height: 550px;
+            height: 250px;
             background-color: #1454dd;
+            padding-top: 40px;
+            box-sizing: border-box;
+            flex-direction: column;
+                h1 {
+                    text-align: center;
+                    font-size: 35px;
+                    color: white;
+                    font-weight: 100;
+                    margin-bottom: 15px;
+                    letter-spacing: 1px;
+                }
+        }
+
+        .contactusdetailsgamedev {
+            width: 80%;
+            height: 250px;
+            background-color: #dd8d14;
+            padding-top: 40px;
+            box-sizing: border-box;
+            flex-direction: column;
+            margin-top: 20px;
+                h1 {
+                    text-align: center;
+                    font-size: 35px;
+                    color: white;
+                    font-weight: 100;
+                    margin-bottom: 15px;
+                    letter-spacing: 1px;
+                }
         }
 }
