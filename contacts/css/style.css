@@ -129,7 +129,7 @@ header .headeritself nav #onthispage {
   align-items: center;
   height: 340px;
   flex-wrap: wrap;
-  margin-top: 170px;
+  margin-top: 190px;
 }
 .flexcontactbox .contactusdetails {
   width: 80%;
@@ -138,6 +138,7 @@ header .headeritself nav #onthispage {
   padding-top: 40px;
   box-sizing: border-box;
   flex-direction: column;
+  border-radius: 10px;
 }
 .flexcontactbox .contactusdetails h1 {
   text-align: center;
@@ -155,6 +156,7 @@ header .headeritself nav #onthispage {
   box-sizing: border-box;
   flex-direction: column;
   margin-top: 20px;
+  border-radius: 10px;
 }
 .flexcontactbox .contactusdetailsgamedev h1 {
   text-align: center;
