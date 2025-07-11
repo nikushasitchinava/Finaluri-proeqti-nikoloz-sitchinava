@@ -267,7 +267,8 @@ main {
                 background-image: url(./../images/mariobrosgame3thumbnail.png);
             }
             #Game3 {
-                background-image: url(./../images/nfsunbound.png);
+                background-image: url(./../images/racinggame3replacement.png);
+                background-position: center;
             }
             #Game4 {
                 background-image: url(./../images/pacmangame.png);
@@ -356,7 +357,8 @@ main {
         }
 
         #racegame3 {
-            background-image: url(./../images/nfsunbound.png);
+            background-image: url(./../images/racinggame4.png);
+            background-position: center;
         }
 
         #racingnone {
@@ -489,6 +491,11 @@ footer {
             text-shadow: 0px 0px 6px rgba(0,0,0,1);
             font-weight: 100;
             text-decoration: none;
+            transition: 0.5s;
+
+            &:hover {
+                color: rgb(0, 255, 255);
+            }
         }
 
         .line {
