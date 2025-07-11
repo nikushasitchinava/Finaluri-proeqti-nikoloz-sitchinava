@@ -138,15 +138,25 @@ header .headeritself nav #onthispage {
 .flexdescbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 150px;
 }
 .flexdescbox .descbox {
   width: 93%;
-  height: 400px;
+  height: 740px;
   background-color: #1454dd;
   padding-top: 25px;
   padding-left: 15px;
   padding-right: 15px;
   box-sizing: border-box;
+}
+.flexdescbox .descbox .logoblackdiv {
+  display: flex;
+  justify-content: space-around;
+}
+.flexdescbox .descbox .logoblackdiv #logowhite {
+  width: 200px;
+  width: 17%;
+  margin-top: 50px;
 }
 .flexdescbox .descbox h1 {
   color: white;
@@ -475,12 +485,21 @@ header .headeritself nav #onthispage {
   }
   .flexdescbox .descbox {
     width: 92%;
-    height: 300px;
+    height: 340px;
     background-color: #1454dd;
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
+  }
+  .flexdescbox .descbox .logoblackdiv {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flexdescbox .descbox .logoblackdiv #logowhite {
+    width: 200px;
+    width: 17%;
+    margin-top: 20px;
   }
   .flexdescbox .descbox h1 {
     color: white;
@@ -557,12 +576,21 @@ header .headeritself nav #onthispage {
   }
   .flexdescbox .descbox {
     width: 92%;
-    height: 300px;
+    height: 400px;
     background-color: #1454dd;
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
+  }
+  .flexdescbox .descbox .logoblackdiv {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flexdescbox .descbox .logoblackdiv #logowhite {
+    width: 200px;
+    width: 17%;
+    margin-top: 20px;
   }
   .flexdescbox .descbox h1 {
     color: white;
