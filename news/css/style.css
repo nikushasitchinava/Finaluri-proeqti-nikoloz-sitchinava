@@ -27,7 +27,7 @@ header {
   height: 380px;
   width: 100%;
   top: -280px;
-  z-index: 1;
+  z-index: 2;
   transition: 0.7s;
 }
 header:hover {
@@ -104,6 +104,23 @@ header .headeritself nav a:hover {
 }
 header .headeritself nav #onthispage {
   color: rgb(0, 255, 255);
+}
+
+.hintforheaderhover {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: #001381;
+  top: 0;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  opacity: 50%;
+}
+.hintforheaderhover i {
+  font-size: 50px !important;
+  color: white !important;
 }
 
 .news1 {
