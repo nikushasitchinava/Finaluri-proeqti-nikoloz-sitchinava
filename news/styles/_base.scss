@@ -17,6 +17,113 @@ body {
 }
 
 
+header {
+    display: flex;
+    position: fixed;
+    height: 380px;
+    width: 100%;
+    top: -280px;   
+    z-index: 1;
+    transition: 0.7s;
+    &:hover {
+        top: 0px;
+        height: 150px;
+    }
+        .headeritself {
+            height: 150px;
+            width: 100%;
+            background-color: #1454dd;
+            display: flex;
+            justify-content: space-around;
+            box-sizing: border-box;
+            box-shadow: 0px 24px 17px 29px rgba(0,7,36,0.69);
+            -webkit-box-shadow: 0px 24px 17px 29px rgba(0,7,36,0.69);
+            -moz-box-shadow: 0px 24px 17px 29px rgba(0,7,36,0.69);
+                .hlogo{
+                display: flex;
+                width: 90px;
+                height: 82px;
+                margin-top: 22px;
+                transition: 0.5s;
+
+                &:hover {
+                transform: scale(1.2);
+                }
+
+                }
+
+                .Reglogdiv{
+                margin-left: 50px;
+                display: flex;
+                width: 280px;
+                justify-content: space-between;
+                margin-top: 40px;
+                    i {
+                        display: none;
+                        transition: 0.5s;
+
+                        &:hover {
+                        transform: scale(1.2);
+                        }
+                    }
+
+                    .reglog {
+                    font-size: 40px;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    text-shadow: 0px 0px 6px rgba(0,0,0,1);
+                    transition: 0.3s;
+                        
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                    
+                    }
+
+                }
+                
+                .Menubar {
+                    margin-top: 40px;
+                    display: none;
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+
+                nav {
+                display: flex;
+                width: 800px;
+                justify-content: space-between;
+                margin-top: 40px;
+                    a {
+                    font-size: 40px;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    text-shadow: 0px 0px 6px rgba(0,0,0,1);
+                    transition: 0.3s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        }
+                    }
+
+                    #onthispage {
+                        color: rgb(0, 255, 255);
+                    }
+                 
+                }
+        }
+    
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -44,7 +151,6 @@ position: relative;
     }
 }
 
-
 .news2 {
 background-image: url(./../../images/news2.png);
 height: 800px;
@@ -69,7 +175,6 @@ position: relative;
     }
 }
 
-
 .news3 {
 background-image: url(./../../images/news3.png);
 height: 800px;
@@ -93,7 +198,6 @@ position: relative;
         right: 0px;
     }
 }
-
 
 .news4 {
 background-image: url(./../../images/news4.png);
