@@ -300,6 +300,49 @@ header .headeritself nav #onthispage {
   header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
   }
+  .flexcontactbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    flex-wrap: wrap;
+    margin-top: 190px;
+  }
+  .flexcontactbox .contactusdetails {
+    width: 80%;
+    height: 250px;
+    background-color: #1454dd;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetails h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .flexcontactbox .contactusdetailsgamedev {
+    width: 80%;
+    height: 250px;
+    background-color: #dd8d14;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetailsgamedev h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
 }
 @media screen and (min-device-width: 465px) and (max-device-width: 589px) {
   header .headeritself {
@@ -344,6 +387,49 @@ header .headeritself nav #onthispage {
   }
   header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
+  }
+  .flexcontactbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    flex-wrap: wrap;
+    margin-top: 190px;
+  }
+  .flexcontactbox .contactusdetails {
+    width: 80%;
+    height: 250px;
+    background-color: #1454dd;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetails h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .flexcontactbox .contactusdetailsgamedev {
+    width: 80%;
+    height: 250px;
+    background-color: #dd8d14;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetailsgamedev h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
   }
 }
 @media screen and (min-device-width: 375px) and (max-device-width: 464px) {
@@ -390,6 +476,49 @@ header .headeritself nav #onthispage {
   header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
   }
+  .flexcontactbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    flex-wrap: wrap;
+    margin-top: 190px;
+  }
+  .flexcontactbox .contactusdetails {
+    width: 80%;
+    height: 250px;
+    background-color: #1454dd;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetails h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .flexcontactbox .contactusdetailsgamedev {
+    width: 80%;
+    height: 250px;
+    background-color: #dd8d14;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetailsgamedev h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 374px) {
   header .headeritself {
@@ -434,5 +563,48 @@ header .headeritself nav #onthispage {
   }
   header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
+  }
+  .flexcontactbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    flex-wrap: wrap;
+    margin-top: 190px;
+  }
+  .flexcontactbox .contactusdetails {
+    width: 80%;
+    height: 250px;
+    background-color: #1454dd;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetails h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .flexcontactbox .contactusdetailsgamedev {
+    width: 80%;
+    height: 250px;
+    background-color: #dd8d14;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .flexcontactbox .contactusdetailsgamedev h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
   }
 }/*# sourceMappingURL=style.css.map */
