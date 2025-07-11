@@ -121,4 +121,274 @@ header .headeritself nav #onthispage {
 .hintforheaderhover i {
   font-size: 50px !important;
   color: white !important;
+}
+
+@media screen and (min-device-width: 1225px) and (max-device-width: 1440px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    margin-left: 50px;
+    display: flex;
+    width: 156px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself nav {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1224px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    margin-left: 50px;
+    display: flex;
+    width: 156px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: none;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself nav {
+    display: none;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
+}
+@media screen and (min-device-width: 590px) and (max-device-width: 800px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    margin-left: 50px;
+    display: flex;
+    width: 156px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: none;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself nav {
+    display: none;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
+}
+@media screen and (min-device-width: 465px) and (max-device-width: 589px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    display: flex;
+    width: 0px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: none;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself nav {
+    display: none;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 464px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    display: flex;
+    width: 0px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: none;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself nav {
+    display: none;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  header .headeritself {
+    height: 150px;
+    width: 100%;
+    background-color: #1454dd;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  header .headeritself .Reglogdiv {
+    display: flex;
+    width: 0px;
+    justify-content: space-between;
+  }
+  header .headeritself .Reglogdiv i {
+    display: none;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself .Reglogdiv .reglog {
+    display: none;
+  }
+  header .headeritself .Menubar {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+  }
+  header .headeritself nav {
+    display: none;
+    justify-content: space-between;
+  }
+  header .headeritself nav a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    transition: 0.3s;
+  }
+  header .headeritself nav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .headeritself nav #onthispage {
+    color: rgb(0, 255, 255);
+  }
 }/*# sourceMappingURL=style.css.map */
