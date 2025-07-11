@@ -294,8 +294,8 @@ main .gamesection #racegame3 {
   background-image: url(./../images/nfsunbound.png);
 }
 main .gamesection #racingnone {
-  background-image: url(./../images/racinggame3.png);
-  background-position: right;
+  background-image: url(./../images/racinggame3replacement.png);
+  background-position: center;
 }
 main .gamesection #multiplayergame1 {
   background-image: url(./../images/mariogamethumbnail.jpg);
