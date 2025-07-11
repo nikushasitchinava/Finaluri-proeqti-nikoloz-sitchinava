@@ -119,10 +119,6 @@ header {
 }
 
 
-
-
-
-
 .hintforheaderhover {
     position: fixed;
     display: flex;
@@ -137,5 +133,18 @@ header {
         i {
             font-size: 50px !important;
             color: white !important;
+        }
+}
+
+
+.flexcontactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+        .contactusdetails {
+            width: 80%;
+            height: 550px;
+            background-color: #1454dd;
         }
 }
