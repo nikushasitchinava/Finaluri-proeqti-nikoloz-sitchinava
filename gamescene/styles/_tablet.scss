@@ -1,0 +1,105 @@
+header {
+        .headeritself {
+            height: 150px;
+            width: 100%;
+            background-color: #1454dd;
+            display: flex;
+            justify-content: space-around;
+            box-sizing: border-box;
+                .Reglogdiv{
+                margin-left: 50px;
+                display: flex;
+                width: 156px;
+                justify-content: space-between;
+                    i {
+                        display: none;
+                        font-size: 50px;
+                        color: white;
+                    }
+                
+                    .reglog {
+                      display: none;
+                    }
+                }
+
+                .Menubar {
+                    display: inline-block;
+                    font-size: 50px;
+                    color: white;
+                }
+
+
+                nav {
+                display: none;
+                justify-content: space-between;
+                    a {
+                    font-size: 40px;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    text-shadow: 4px 4px 5px rgba(0,5,29,0.35);
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: rgb(255, 255, 255);
+                        }
+                    }
+
+                    #onthispage {
+                        color: rgb(0, 255, 255);
+                    }
+                 
+                }
+        }
+    
+
+}
+
+
+
+
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+        #mario {
+        width: 350px;
+        height: 450px;
+        margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 90px;
+            font-weight: 100;
+            color: white;
+            margin-bottom: 50px;
+            text-shadow: 4px 4px 6px rgba(0,0,0,0.49);
+        }
+
+        h2 {
+            color: white;
+            width: 600px;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 60px;
+            font-weight: 100;
+            text-shadow: 4px 4px 6px rgba(0,0,0,0.49);
+        }
+
+        h3 {
+            color: white;
+            font-size: 80px;
+            text-align: center;
+            margin-bottom: 34px;
+            text-shadow: 4px 4px 6px rgba(0,0,0,0.49);
+        }
+
+        h4 {
+            color: white;
+            font-size: 35px;
+            font-weight: 100;
+            text-align: center;
+            text-shadow: 4px 4px 6px rgba(0,0,0,0.49);
+        }
+}
