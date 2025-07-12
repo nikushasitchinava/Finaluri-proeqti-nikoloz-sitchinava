@@ -232,6 +232,15 @@ main .topgames #Game3 {
 main .topgames #Game4 {
   background-image: url(./../images/pacmangame.png);
 }
+main #animateddiv1 {
+  width: 100%;
+}
+main #animateddiv2 {
+  width: 100%;
+}
+main #animateddiv3 {
+  width: 100%;
+}
 main .smalltittle {
   display: flex;
   justify-content: center;
