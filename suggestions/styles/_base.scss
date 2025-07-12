@@ -120,6 +120,27 @@ header {
 
 
 
+.hintforheaderhover {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #001381;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+        i {
+            font-size: 50px !important;
+            color: white !important;
+        }
+}
+
+
+
+
+
 .recomendedgamesdiv {
     margin-top: 150px;
     width: 100%;
@@ -136,7 +157,6 @@ header {
         }
 
         .showcasediv {
-        position: fixed;
         display: flex;
         justify-content: space-around;
         width: 100%;       
@@ -214,34 +234,6 @@ header {
             }
         }
 }
-
-
-
-
-
-
-
-
-
-
-.hintforheaderhover {
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 90px;
-    background-color: #001381;
-    top: 0;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-    opacity: 50%;
-        i {
-            font-size: 50px !important;
-            color: white !important;
-        }
-}
-
-
 
 
 
