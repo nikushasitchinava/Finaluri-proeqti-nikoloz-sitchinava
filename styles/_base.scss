@@ -168,7 +168,7 @@ display: flex;
 justify-content: center;
 margin-bottom: 150px;
     .searchgame {
-        width: 40%;
+        width: 74%;
         height: 50px;
         font-size: 25px;
         padding-left: 15px;
@@ -200,6 +200,7 @@ margin-bottom: 150px;
         font-weight: 400;
         font-style: normal;
         font-size: 30px;
+        transition: 0.1s;
     }
 
      button:hover {
@@ -208,6 +209,7 @@ margin-bottom: 150px;
 
     button:active {
         background-color: #001381;
+        transform: scale(0.9);
     }
 }
 
