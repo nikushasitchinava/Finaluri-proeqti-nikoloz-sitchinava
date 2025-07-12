@@ -156,21 +156,19 @@ footer {
     height: 250px;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    background-color: #1454dd;
+    padding-top: 25px;
+    padding-bottom: 50px;
             h1 {
             color: white;
-            font-size: 35px;
+            font-size: 45px;
             letter-spacing: 12px;
             text-shadow: 4px 4px 5px rgba(0,11,26,0.6);
             font-weight: 100;
-            text-align: center;
         }
 
         .line {
-            width: 2px;
-            height: 90px;
-            background-color: white;
-            box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
-            -webkit-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
-            -moz-box-shadow: 10px 10px 74px 3px rgba(0,0,0,0.57);
+            display: none;
         }
 }
