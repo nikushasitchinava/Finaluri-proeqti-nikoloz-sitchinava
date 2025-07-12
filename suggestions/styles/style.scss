@@ -5,3 +5,25 @@
 
 
 @import "base";
+
+
+
+
+@media #{$laptopl} {
+    @import 'laptopl';
+}
+@media #{$laptop} {
+    @import 'laptop';
+}
+@media #{$tablet} {
+    @import 'tablet';
+}
+@media #{$mobilel} {
+    @import 'mobilel';
+}
+@media #{$mobilem} {
+    @import 'mobilem';
+}
+@media #{$mobiles} {
+    @import 'mobiles';
+}
