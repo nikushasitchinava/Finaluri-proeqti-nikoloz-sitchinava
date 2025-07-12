@@ -135,7 +135,6 @@ header {
             margin-bottom: 90px;
         }
 
-
         .showcasediv {
         position: fixed;
         display: flex;
@@ -179,6 +178,39 @@ header {
             #Game4 {
                 background-image: url(./../../images/actiongame4.png);
                 background-position: center;
+            }
+
+
+            #leftarrow {
+                color: white;
+                font-size: 75px;
+                align-content: center;
+                transition: 0.2s;
+
+                &:hover {
+                    color: #40e2ff;
+                }
+
+                &:active {
+                    transform: scale(0.8);
+                    color: #010e54;
+                }
+            }
+
+            #rightarrow {
+                color: white;
+                font-size: 75px;
+                align-content: center;
+                transition: 0.2s;
+
+                &:hover {
+                    color: #40e2ff;
+                }
+
+                &:active {
+                    transform: scale(0.8);
+                    color: #010e54;
+                }
             }
         }
 }

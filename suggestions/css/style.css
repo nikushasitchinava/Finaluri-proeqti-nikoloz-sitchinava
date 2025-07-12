@@ -160,6 +160,32 @@ header .headeritself nav #onthispage {
   background-image: url(./../../images/actiongame4.png);
   background-position: center;
 }
+.recomendedgamesdiv .showcasediv #leftarrow {
+  color: white;
+  font-size: 75px;
+  align-content: center;
+  transition: 0.2s;
+}
+.recomendedgamesdiv .showcasediv #leftarrow:hover {
+  color: #40e2ff;
+}
+.recomendedgamesdiv .showcasediv #leftarrow:active {
+  transform: scale(0.8);
+  color: #010e54;
+}
+.recomendedgamesdiv .showcasediv #rightarrow {
+  color: white;
+  font-size: 75px;
+  align-content: center;
+  transition: 0.2s;
+}
+.recomendedgamesdiv .showcasediv #rightarrow:hover {
+  color: #40e2ff;
+}
+.recomendedgamesdiv .showcasediv #rightarrow:active {
+  transform: scale(0.8);
+  color: #010e54;
+}
 
 .hintforheaderhover {
   position: fixed;
