@@ -78,13 +78,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.flexform form button h1 {
   color: white;
   font-family: "Jersey 15", sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 35px;
+  font-size: 30px;
 }
 .flexform form button:hover {
   background-color: #334ff0;
