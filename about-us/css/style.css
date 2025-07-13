@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -23,12 +30,16 @@ body {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: fixed;
   height: 380px;
   width: 100%;
   top: -280px;
   z-index: 2;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
   transition: 0.7s;
 }
 header:hover {
@@ -39,58 +50,86 @@ header .headeritself {
   height: 150px;
   width: 100%;
   background-color: #1454dd;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  box-sizing: border-box;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   box-shadow: 0px 24px 17px 29px rgba(0, 7, 36, 0.69);
   -webkit-box-shadow: 0px 24px 17px 29px rgba(0, 7, 36, 0.69);
   -moz-box-shadow: 0px 24px 17px 29px rgba(0, 7, 36, 0.69);
 }
 header .headeritself .hlogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 90px;
   height: 82px;
   margin-top: 22px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 header .headeritself .hlogo:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 header .headeritself .Reglogdiv {
   margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 280px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 40px;
 }
 header .headeritself .Reglogdiv i {
   display: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 header .headeritself .Reglogdiv i:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 header .headeritself .Reglogdiv .reglog {
   font-size: 40px;
   text-decoration: none;
   color: rgb(255, 255, 255);
   text-shadow: 0px 0px 6px rgb(0, 0, 0);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 header .headeritself .Reglogdiv .reglog:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 header .headeritself .Menubar {
   margin-top: 40px;
   display: none;
 }
 header .headeritself .Menubar:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 header .headeritself nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 800px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 40px;
 }
 header .headeritself nav a {
@@ -98,10 +137,14 @@ header .headeritself nav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   text-shadow: 0px 0px 6px rgb(0, 0, 0);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 header .headeritself nav a:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 header .headeritself nav #onthispage {
   color: rgb(0, 255, 255);
@@ -109,14 +152,20 @@ header .headeritself nav #onthispage {
 
 .hintforheaderhover {
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 90px;
   background-color: #001381;
   top: 0;
   z-index: 1;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   opacity: 50%;
 }
 .hintforheaderhover i {
@@ -125,8 +174,12 @@ header .headeritself nav #onthispage {
 }
 
 .pagetittlediv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 30px;
 }
 .pagetittlediv .pagetittle {
@@ -136,8 +189,12 @@ header .headeritself nav #onthispage {
 }
 
 .flexdescbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 150px;
 }
 .flexdescbox .descbox {
@@ -147,11 +204,15 @@ header .headeritself nav #onthispage {
   padding-top: 25px;
   padding-left: 15px;
   padding-right: 15px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .flexdescbox .descbox .logoblackdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .flexdescbox .descbox .logoblackdiv #logowhite {
   width: 200px;
@@ -177,15 +238,23 @@ header .headeritself nav #onthispage {
     height: 150px;
     width: 100%;
     background-color: #1454dd;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
     margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 156px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
     display: inline-block;
@@ -196,15 +265,21 @@ header .headeritself nav #onthispage {
     display: none;
   }
   header .headeritself nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 800px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself nav a {
     font-size: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   header .headeritself nav a:hover {
@@ -219,15 +294,23 @@ header .headeritself nav #onthispage {
     height: 150px;
     width: 100%;
     background-color: #1454dd;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
     margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 156px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
     display: none;
@@ -244,13 +327,17 @@ header .headeritself nav #onthispage {
   }
   header .headeritself nav {
     display: none;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself nav a {
     font-size: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   header .headeritself nav a:hover {
@@ -265,15 +352,23 @@ header .headeritself nav #onthispage {
     height: 150px;
     width: 100%;
     background-color: #1454dd;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
     margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 156px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
     display: none;
@@ -290,13 +385,17 @@ header .headeritself nav #onthispage {
   }
   header .headeritself nav {
     display: none;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself nav a {
     font-size: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   header .headeritself nav a:hover {
@@ -306,8 +405,12 @@ header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
   }
   .pagetittlediv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 30px;
   }
   .pagetittlediv .pagetittle {
@@ -316,8 +419,12 @@ header .headeritself nav #onthispage {
     font-weight: 200;
   }
   .flexdescbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .flexdescbox .descbox {
     width: 93%;
@@ -326,7 +433,8 @@ header .headeritself nav #onthispage {
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .flexdescbox .descbox h1 {
     color: white;
@@ -348,14 +456,22 @@ header .headeritself nav #onthispage {
     height: 150px;
     width: 100%;
     background-color: #1454dd;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 0px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
     display: none;
@@ -372,13 +488,17 @@ header .headeritself nav #onthispage {
   }
   header .headeritself nav {
     display: none;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself nav a {
     font-size: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   header .headeritself nav a:hover {
@@ -388,8 +508,12 @@ header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
   }
   .pagetittlediv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 30px;
   }
   .pagetittlediv .pagetittle {
@@ -398,8 +522,12 @@ header .headeritself nav #onthispage {
     font-weight: 200;
   }
   .flexdescbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .flexdescbox .descbox {
     width: 92%;
@@ -408,7 +536,8 @@ header .headeritself nav #onthispage {
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .flexdescbox .descbox h1 {
     color: white;
@@ -430,14 +559,22 @@ header .headeritself nav #onthispage {
     height: 150px;
     width: 100%;
     background-color: #1454dd;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 0px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
     display: none;
@@ -454,13 +591,17 @@ header .headeritself nav #onthispage {
   }
   header .headeritself nav {
     display: none;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself nav a {
     font-size: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   header .headeritself nav a:hover {
@@ -470,8 +611,12 @@ header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
   }
   .pagetittlediv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 30px;
   }
   .pagetittlediv .pagetittle {
@@ -480,8 +625,12 @@ header .headeritself nav #onthispage {
     font-weight: 200;
   }
   .flexdescbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .flexdescbox .descbox {
     width: 92%;
@@ -490,11 +639,15 @@ header .headeritself nav #onthispage {
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .flexdescbox .descbox .logoblackdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .flexdescbox .descbox .logoblackdiv #logowhite {
     width: 200px;
@@ -521,14 +674,22 @@ header .headeritself nav #onthispage {
     height: 150px;
     width: 100%;
     background-color: #1454dd;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   header .headeritself .Reglogdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 0px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself .Reglogdiv i {
     display: none;
@@ -545,13 +706,17 @@ header .headeritself nav #onthispage {
   }
   header .headeritself nav {
     display: none;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   header .headeritself nav a {
     font-size: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 5px rgba(0, 5, 29, 0.35);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   header .headeritself nav a:hover {
@@ -561,8 +726,12 @@ header .headeritself nav #onthispage {
     color: rgb(0, 255, 255);
   }
   .pagetittlediv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 30px;
   }
   .pagetittlediv .pagetittle {
@@ -571,8 +740,12 @@ header .headeritself nav #onthispage {
     font-weight: 200;
   }
   .flexdescbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .flexdescbox .descbox {
     width: 92%;
@@ -581,11 +754,15 @@ header .headeritself nav #onthispage {
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .flexdescbox .descbox .logoblackdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .flexdescbox .descbox .logoblackdiv #logowhite {
     width: 200px;
@@ -606,4 +783,4 @@ header .headeritself nav #onthispage {
     text-align: center;
     text-decoration: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}
